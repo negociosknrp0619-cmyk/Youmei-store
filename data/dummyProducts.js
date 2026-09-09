@@ -69,7 +69,7 @@ export const dummyProducts = [
   {
     id: "dji-osmo-mobile-8",
     brand: "DJI",
-    title: "DJI Osmo Mobile 8",
+    title: 'DJI Osmo Mobile 8',
     sku: "CN9500140NA8",
     originalPrice: 699.00,
     currentPrice: 620.00,
@@ -131,7 +131,7 @@ export const dummyProducts = [
   {
     id: "dji-osmo-mobile-8p-tracking",
     brand: "DJI",
-    title: "DJI Osmo Mobile 8P Advanced Tracking Combo",
+    title: 'DJI Osmo Mobile 8P Advanced Tracking Combo',
     sku: "CN9500155NA8",
     originalPrice: 999.00,
     currentPrice: 850.00,
@@ -187,7 +187,7 @@ export const dummyProducts = [
   {
     id: "dji-osmo-mobile-8p-creator",
     brand: "DJI",
-    title: "DJI Osmo Mobile 8P Creator Combo",
+    title: 'DJI Osmo Mobile 8P Creator Combo',
     sku: "CN9500155NA9",
     originalPrice: 1299.00,
     currentPrice: 1150.00,
@@ -241,7 +241,7 @@ export const dummyProducts = [
   {
     id: "dji-rs-5",
     brand: "DJI",
-    title: "DJI RS 5",
+    title: 'DJI RS 5',
     sku: "CN9500177NA5",
     originalPrice: 2899.00,
     currentPrice: 2599.00,
@@ -316,7 +316,7 @@ export const dummyProducts = [
   {
     id: "dji-rs-5-combo",
     brand: "DJI",
-    title: "DJI RS 5 Combo",
+    title: 'DJI RS 5 Combo',
     sku: "CN9500178NA6",
     originalPrice: 4050.00,
     currentPrice: 3650.00,
@@ -391,7 +391,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-2",
     brand: "DJI",
-    title: "DJI Mic 2 (2 TX %2B 1 RX %2B Estuche de carga)",
+    title: 'DJI Mic 2 (2 TX + 1 RX + Estuche de carga)',
     sku: "CN9500179NA1",
     originalPrice: 1100.00,
     currentPrice: 950.00,
@@ -467,7 +467,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-3",
     brand: "DJI",
-    title: "DJI Mic 3 (2 TX %2B 1 RX %2B Estuche de carga)",
+    title: 'DJI Mic 3 (2 TX + 1 RX + Estuche de carga)',
     sku: "CN9500181NA3",
     originalPrice: 1399.00,
     currentPrice: 1199.00,
@@ -544,7 +544,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini",
     brand: "DJI",
-    title: "DJI Mic Mini (2 TX %2B 1 RX)",
+    title: 'DJI Mic Mini (2 TX + 1 RX)',
     sku: "CN9500183NA8",
     originalPrice: 400.00,
     currentPrice: 320.00,
@@ -614,7 +614,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-combo",
     brand: "DJI",
-    title: "DJI Mic Mini (2 TX %2B 1 RX %2B Estuche de carga)",
+    title: 'DJI Mic Mini (2 TX + 1 RX + Estuche de carga)',
     sku: "CN9500183NA9",
     originalPrice: 500.00,
     currentPrice: 420.00,
@@ -688,7 +688,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-2-combo",
     brand: "DJI",
-    title: "DJI Mic Mini 2 (2 TX %2B 1 Mobile RX %2B Estuche de carga)",
+    title: 'DJI Mic Mini 2 (2 TX + 1 Mobile RX + Estuche de carga)',
     sku: "CN9500184NA9",
     originalPrice: 550.00,
     currentPrice: 449.00,
@@ -764,7 +764,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-2s",
     brand: "DJI",
-    title: "DJI Mic Mini 2S (2 TX %2B 1 RX %2B Estuche de carga)",
+    title: 'DJI Mic Mini 2S (2 TX + 1 RX + Estuche de carga)',
     sku: "CN9500185NA9",
     originalPrice: 1100.00,
     currentPrice: 950.00,
