@@ -18,6 +18,7 @@ function ProductosContent() {
   const [priceRange, setPriceRange] = useState([0, 5000]);
   const [allProducts, setAllProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -28,6 +29,7 @@ function ProductosContent() {
         setAllProducts(prods);
       } catch (err) {
         console.error('Error fetching products', err);
+        setFetchError(err.message || 'Error desconocido');
       } finally {
         setLoading(false);
       }
