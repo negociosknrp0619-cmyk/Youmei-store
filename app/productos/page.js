@@ -132,10 +132,10 @@ function ProductosContent() {
         }
         let c = (cat || '').toLowerCase();
         
-        // Mapear plural a singular para que coincida con la ruta de la imagen (ej: "Estabilizadores" -> "estabilizador")
+        // Mapear la categoría deducida para que coincida exactamente con las opciones del filtro
         if (c.includes('estabilizador')) c = 'estabilizadores';
-        if (c.includes('microfono') || c.includes('micrófono') || c.includes('audio')) c = 'micrófonos';
-        if (c.includes('video') || p.title.toLowerCase().includes('osmo action') || p.title.toLowerCase().includes('osmo pocket')) c = 'cámaras';
+        else if (c.includes('microfono') || c.includes('micrófono') || c.includes('audio')) c = 'microfonos';
+        else if (c.includes('video') || p.title.toLowerCase().includes('osmo action') || p.title.toLowerCase().includes('osmo pocket')) c = 'video';
         
         return selectedCategories.includes(c);
       });
