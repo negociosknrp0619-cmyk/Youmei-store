@@ -139,20 +139,20 @@ export const dummyProducts = [
     ratingScore: 4.8,
     reviewCount: 7,
     purchasedThisMonth: 8,
-    image: "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/1.webp",
+    image: "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/1.webp",
     images: [
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/1.webp",
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/2.webp",
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/3.webp",
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/4.webp",
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/5.webp",
-      "/images/products/productos/Dji/Estabilizador/OM 8p + Tracking/6.webp"
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/1.webp",
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/2.webp",
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/3.webp",
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/4.webp",
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/5.webp",
+      "/images/products/productos/Dji/Estabilizador/OM 8p %2B Tracking/6.webp"
     ],
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'Osmo Mobile 8P' },
       { label: 'Versión', value: 'Advanced Tracking Combo' },
-      { label: 'Seguimiento', value: 'ActiveTrack 8.0 + DJI OM Multifunctional Module 2 + Apple DockKit' },
+      { label: 'Seguimiento', value: 'ActiveTrack 8.0 %2B DJI OM Multifunctional Module 2 %2B Apple DockKit' },
       { label: 'Rotación panorámica', value: '360° ilimitada' },
       { label: 'Control remoto', value: 'Osmo FrameTap' },
       { label: 'Brazo extensible', value: 'Integrado, hasta 215 mm' },
@@ -207,8 +207,8 @@ export const dummyProducts = [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'Osmo Mobile 8P' },
       { label: 'Versión', value: 'Creator Combo' },
-      { label: 'Audio', value: 'DJI Mic Mini 2 + DJI Mic Series Mobile Receiver' },
-      { label: 'Seguimiento', value: 'ActiveTrack 8.0 + Módulo Multifuncional 2' },
+      { label: 'Audio', value: 'DJI Mic Mini 2 %2B DJI Mic Series Mobile Receiver' },
+      { label: 'Seguimiento', value: 'ActiveTrack 8.0 %2B Módulo Multifuncional 2' },
       { label: 'Control remoto', value: 'Osmo FrameTap' },
       { label: 'Autonomía', value: 'Hasta 10 horas' }
     ],
@@ -226,7 +226,7 @@ export const dummyProducts = [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'Osmo Mobile 8P' },
       { label: 'Versión', value: 'Creator Combo' },
-      { label: 'Audio incluido', value: '1 × DJI Mic Mini 2 Transmitter + 1 × DJI Mic Series Mobile Receiver.' },
+      { label: 'Audio incluido', value: '1 × DJI Mic Mini 2 Transmitter %2B 1 × DJI Mic Series Mobile Receiver.' },
       { label: 'Seguimiento', value: 'ActiveTrack 8.0, Apple DockKit y DJI OM Multifunctional Module 2' },
       { label: 'Control remoto', value: 'Osmo FrameTap con pantalla táctil de 1,4"' },
       { label: 'Luz de relleno', value: 'Sí, mediante DJI OM Multifunctional Module 2.' }
@@ -290,7 +290,7 @@ export const dummyProducts = [
       { label: 'Compatibilidad', value: 'Cámaras y objetivos compatibles con DJI Ronin, dentro de una carga útil máxima de 3 kg.' },
       { label: 'Carga útil', value: 'Hasta 3 kg.' },
       { label: 'Disparo vertical', value: 'Sí.' },
-      { label: 'Rotación', value: 'Paneo: 360° continuo. Roll: -95° a +240°. Tilt: -112° a +214°.' },
+      { label: 'Rotación', value: 'Paneo: 360° continuo. Roll: -95° a %2B240°. Tilt: -112° a %2B214°.' },
       { label: 'Velocidad máxima de control', value: '360°/s en los ejes Pan, Tilt y Roll.' },
       { label: 'Resistencia al agua/polvo', value: 'No.' },
       { label: 'Dimensiones', value: 'Plegado: 247,4 × 115,7 × 258,7 mm. Desplegado: 223,2 × 192,2 × 418,8 mm.' },
@@ -365,7 +365,7 @@ export const dummyProducts = [
       { label: 'Compatibilidad', value: 'Cámaras y objetivos compatibles con la Serie DJI Ronin, dentro de una carga útil máxima de 3 kg.' },
       { label: 'Carga útil', value: 'Hasta 3 kg.' },
       { label: 'Disparo vertical', value: 'Sí.' },
-      { label: 'Rotación', value: 'Paneo: 360° continuo. Roll: -95° a +240°. Tilt: -112° a +214°.' },
+      { label: 'Rotación', value: 'Paneo: 360° continuo. Roll: -95° a %2B240°. Tilt: -112° a %2B214°.' },
       { label: 'Velocidad máxima de control', value: '360°/s en Pan, Tilt y Roll.' },
       { label: 'Resistencia al agua/polvo', value: 'No.' },
       { label: 'Dimensiones', value: 'Plegado: 247,4 × 115,7 × 258,7 mm. Desplegado: 223,2 × 192,2 × 418,8 mm.' },
@@ -391,7 +391,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-2",
     brand: "DJI",
-    title: "DJI Mic 2 (2 TX + 1 RX + Estuche de carga)",
+    title: "DJI Mic 2 (2 TX %2B 1 RX %2B Estuche de carga)",
     sku: "CN9500179NA1",
     originalPrice: 1100.00,
     currentPrice: 950.00,
@@ -411,13 +411,13 @@ export const dummyProducts = [
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'DJI Mic 2' },
-      { label: 'Configuración', value: '2 TX + 1 RX + Estuche de carga' },
+      { label: 'Configuración', value: '2 TX %2B 1 RX %2B Estuche de carga' },
       { label: 'Alcance', value: 'Hasta 250 m' },
       { label: 'Cancelación de ruido', value: 'Inteligente' },
       { label: 'Grabación interna', value: '8 GB por transmisor' },
       { label: 'Autonomía total', value: 'Hasta 18 h con estuche de carga' }
     ],
-    detailsHeading: 'DJI Mic 2 (2 TX + 1 RX + Estuche de carga): Audio profesional inalámbrico.',
+    detailsHeading: 'DJI Mic 2 (2 TX %2B 1 RX %2B Estuche de carga): Audio profesional inalámbrico.',
     detailsText: 'El DJI Mic 2 es un sistema de micrófono inalámbrico diseñado para creadores de contenido, entrevistas, vlogs, podcasts y producciones audiovisuales. Esta configuración incluye dos transmisores, un receptor y un estuche de carga, permitiendo grabar a dos personas simultáneamente. Ofrece captura omnidireccional, grabación interna de 48 kHz / 24 bits y 32-bit float, cancelación inteligente de ruido y pantalla táctil en el receptor.',
     features: [
       { title: 'Grabación para dos personas', desc: 'Incluye 2 transmisores que pueden trabajar simultáneamente con el receptor, ideal para entrevistas y podcasts.' },
@@ -461,13 +461,13 @@ export const dummyProducts = [
       { q: '¿Es compatible con cámaras?', a: 'Sí. Puede conectarse a cámaras mediante el cable de audio TRS de 3,5 mm incluido.' },
       { q: '¿Es compatible con smartphones?', a: 'Sí. Incluye adaptadores USB-C y Lightning, y el transmisor también puede conectarse directamente mediante Bluetooth.' },
       { q: '¿Con qué productos DJI puede conectarse directamente?', a: 'Mediante DJI OsmoAudio™ con Osmo Mobile 8, Osmo Action 6, Osmo Nano, Osmo 360, Osmo Mobile 7P, Osmo Action 5 Pro, Osmo Action 4 y Osmo Pocket 3.' },
-      { q: '¿Incluye adaptador Lightning?', a: 'Sí. La configuración 2 TX + 1 RX + Estuche de carga incluye adaptadores USB-C y Lightning.' }
+      { q: '¿Incluye adaptador Lightning?', a: 'Sí. La configuración 2 TX %2B 1 RX %2B Estuche de carga incluye adaptadores USB-C y Lightning.' }
     ]
   },
   {
     id: "dji-mic-3",
     brand: "DJI",
-    title: "DJI Mic 3 (2 TX + 1 RX + Estuche de carga)",
+    title: "DJI Mic 3 (2 TX %2B 1 RX %2B Estuche de carga)",
     sku: "CN9500181NA3",
     originalPrice: 1399.00,
     currentPrice: 1199.00,
@@ -488,13 +488,13 @@ export const dummyProducts = [
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'DJI Mic 3' },
-      { label: 'Configuración', value: '2 TX + 1 RX + Estuche de carga' },
+      { label: 'Configuración', value: '2 TX %2B 1 RX %2B Estuche de carga' },
       { label: 'Calidad de audio', value: '48 kHz / 32-bit float y 24-bit' },
       { label: 'Alcance', value: 'Hasta 400 m' },
       { label: 'Cancelación de ruido', value: 'Sí, 2 niveles' },
       { label: 'Autonomía total', value: 'Hasta 28 h con estuche de carga' }
     ],
-    detailsHeading: 'DJI Mic 3 (2 TX + 1 RX + Estuche de carga): El siguiente nivel en grabación.',
+    detailsHeading: 'DJI Mic 3 (2 TX %2B 1 RX %2B Estuche de carga): El siguiente nivel en grabación.',
     detailsText: 'El DJI Mic 3 es un sistema de micrófono inalámbrico avanzado diseñado para creadores de contenido, entrevistas, podcasts, eventos y producciones audiovisuales. Esta configuración incluye dos transmisores, un receptor y un estuche de carga, permitiendo grabar a dos personas simultáneamente y ampliar el sistema hasta cuatro transmisores conectados a un receptor. Ofrece audio de 48 kHz con profundidad seleccionable de 24-bit o 32-bit float, grabación interna dual y transmisión inalámbrica de doble banda de hasta 400 m.',
     features: [
       { title: 'Audio de 48 kHz / 32-bit float', desc: 'Permite trabajar con 32-bit float o 24-bit, ofreciendo mayor margen dinámico y flexibilidad durante la edición.' },
@@ -527,7 +527,7 @@ export const dummyProducts = [
       { label: 'Rango de transmisión (m)', value: '400 m' }
     ],
     faqs: [
-      { q: '¿Qué incluye el DJI Mic 3 (2 TX + 1 RX + Estuche de carga)?', a: 'Incluye dos transmisores DJI Mic 3, un receptor, un estuche de carga, un adaptador móvil USB-C y accesorios correspondientes.' },
+      { q: '¿Qué incluye el DJI Mic 3 (2 TX %2B 1 RX %2B Estuche de carga)?', a: 'Incluye dos transmisores DJI Mic 3, un receptor, un estuche de carga, un adaptador móvil USB-C y accesorios correspondientes.' },
       { q: '¿Cuántas personas pueden grabar simultáneamente?', a: 'El combo incluye dos transmisores para grabar a dos personas. El receptor admite hasta cuatro transmisores DJI Mic 3 simultáneamente.' },
       { q: '¿Qué calidad de audio ofrece?', a: '48 kHz con profundidad seleccionable de 32-bit float o 24-bit.' },
       { q: '¿Tiene grabación interna?', a: 'Sí. Cada transmisor incorpora 32 GB de almacenamiento interno.' },
@@ -544,7 +544,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini",
     brand: "DJI",
-    title: "DJI Mic Mini (2 TX + 1 RX)",
+    title: "DJI Mic Mini (2 TX %2B 1 RX)",
     sku: "CN9500183NA8",
     originalPrice: 400.00,
     currentPrice: 320.00,
@@ -552,22 +552,22 @@ export const dummyProducts = [
     ratingScore: 4.7,
     reviewCount: 5,
     purchasedThisMonth: 18,
-    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX)/1.webp",
+    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX)/1.webp",
     images: [
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX)/1.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX)/2.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX)/3.png"
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX)/1.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX)/2.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX)/3.png"
     ],
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'DJI Mic Mini' },
-      { label: 'Configuración', value: '2 TX + 1 RX' },
+      { label: 'Configuración', value: '2 TX %2B 1 RX' },
       { label: 'Alcance', value: 'Hasta 400 m' },
       { label: 'Cancelación de ruido', value: '2 niveles' },
       { label: 'Autonomía', value: 'Hasta 11,5 h por transmisor' }
     ],
-    detailsHeading: 'DJI Mic Mini (2 TX + 1 RX): Audio ultraligero e invisible.',
-    detailsText: 'El DJI Mic Mini (2 TX + 1 RX) es un sistema de micrófono inalámbrico ultracompacto diseñado para grabar a dos personas simultáneamente. Incluye dos transmisores y un receptor, ofreciendo audio estable para entrevistas, vlogs, streaming, videos para redes sociales y producciones audiovisuales. Su diseño ligero (10g por módulo), transmisión de hasta 400 m, cancelación de ruido en dos niveles y limitación automática ayudan a obtener voces claras y reducir problemas de saturación durante la grabación.',
+    detailsHeading: 'DJI Mic Mini (2 TX %2B 1 RX): Audio ultraligero e invisible.',
+    detailsText: 'El DJI Mic Mini (2 TX %2B 1 RX) es un sistema de micrófono inalámbrico ultracompacto diseñado para grabar a dos personas simultáneamente. Incluye dos transmisores y un receptor, ofreciendo audio estable para entrevistas, vlogs, streaming, videos para redes sociales y producciones audiovisuales. Su diseño ligero (10g por módulo), transmisión de hasta 400 m, cancelación de ruido en dos niveles y limitación automática ayudan a obtener voces claras y reducir problemas de saturación durante la grabación.',
     features: [
       { title: 'Diseño ultraligero', desc: 'Cada transmisor pesa aproximadamente 10 g, facilitando una colocación discreta y cómoda sobre la ropa.' },
       { title: 'Grabación para dos personas', desc: 'El receptor puede enlazarse con dos transmisores al mismo tiempo, ideal para entrevistas y podcasts.' },
@@ -599,7 +599,7 @@ export const dummyProducts = [
       { label: 'Rango de transmisión (m)', value: '400 m' }
     ],
     faqs: [
-      { q: '¿Qué es el DJI Mic Mini (2 TX + 1 RX)?', a: 'Es un sistema de micrófono inalámbrico que incluye dos transmisores y un receptor, diseñado para grabar audio de hasta dos personas simultáneamente.' },
+      { q: '¿Qué es el DJI Mic Mini (2 TX %2B 1 RX)?', a: 'Es un sistema de micrófono inalámbrico que incluye dos transmisores y un receptor, diseñado para grabar audio de hasta dos personas simultáneamente.' },
       { q: '¿Incluye estuche de carga?', a: 'No. Esta versión incluye 2 transmisores y 1 receptor, pero no incluye Charging Case.' },
       { q: '¿Cuántas personas pueden grabar al mismo tiempo?', a: 'Hasta dos personas, utilizando los dos transmisores incluidos.' },
       { q: '¿Cuál es el alcance máximo?', a: 'Hasta 400 m en un entorno abierto, sin obstáculos y libre de interferencias.' },
@@ -614,7 +614,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-combo",
     brand: "DJI",
-    title: "DJI Mic Mini (2 TX + 1 RX + Estuche de carga)",
+    title: "DJI Mic Mini (2 TX %2B 1 RX %2B Estuche de carga)",
     sku: "CN9500183NA9",
     originalPrice: 500.00,
     currentPrice: 420.00,
@@ -622,24 +622,24 @@ export const dummyProducts = [
     ratingScore: 4.8,
     reviewCount: 9,
     purchasedThisMonth: 15,
-    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/1.jpg",
+    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/1.jpg",
     images: [
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/1.jpg",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/2.jpg",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/3.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/4.png",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX + 1 RX + estuche de carga)/5.webp"
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/1.jpg",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/2.jpg",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/3.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/4.png",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini (2 TX %2B 1 RX %2B estuche de carga)/5.webp"
     ],
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'DJI Mic Mini' },
-      { label: 'Configuración', value: '2 TX + 1 RX + Estuche de carga' },
+      { label: 'Configuración', value: '2 TX %2B 1 RX %2B Estuche de carga' },
       { label: 'Alcance', value: 'Hasta 400 m' },
       { label: 'Cancelación de ruido', value: '2 niveles' },
       { label: 'Autonomía total', value: 'Hasta 48 h con estuche de carga' }
     ],
-    detailsHeading: 'DJI Mic Mini (2 TX + 1 RX + Estuche de carga): Siempre listo para grabar.',
-    detailsText: 'El DJI Mic Mini (2 TX + 1 RX + Estuche de carga) es un sistema de micrófono inalámbrico compacto pensado para creadores de contenido, entrevistas, vlogs, transmisiones y producciones audiovisuales. Su configuración incluye dos transmisores, un receptor y un estuche de carga, por lo que permite capturar el audio de dos personas simultáneamente y mantener el sistema organizado y listo para largas jornadas de grabación. Su diseño ultraligero y autonomía total de hasta 48 horas lo convierten en una solución muy versátil.',
+    detailsHeading: 'DJI Mic Mini (2 TX %2B 1 RX %2B Estuche de carga): Siempre listo para grabar.',
+    detailsText: 'El DJI Mic Mini (2 TX %2B 1 RX %2B Estuche de carga) es un sistema de micrófono inalámbrico compacto pensado para creadores de contenido, entrevistas, vlogs, transmisiones y producciones audiovisuales. Su configuración incluye dos transmisores, un receptor y un estuche de carga, por lo que permite capturar el audio de dos personas simultáneamente y mantener el sistema organizado y listo para largas jornadas de grabación. Su diseño ultraligero y autonomía total de hasta 48 horas lo convierten en una solución muy versátil.',
     features: [
       { title: 'Diseño ultracompacto y ligero', desc: 'Cada transmisor pesa aproximadamente 10 g, permitiendo colocarlo discretamente sobre la ropa.' },
       { title: 'Grabación para dos personas simultáneamente', desc: 'El receptor puede enlazarse con dos transmisores al mismo tiempo, ideal para entrevistas.' },
@@ -671,7 +671,7 @@ export const dummyProducts = [
       { label: 'Rango de transmisión (m)', value: '400 m' }
     ],
     faqs: [
-      { q: '¿Qué es el DJI Mic Mini (2 TX + 1 RX + Estuche de carga)?', a: 'Es un sistema de micrófono inalámbrico que incluye dos transmisores, un receptor y un estuche de carga. Está diseñado para capturar audio de alta calidad en creación de contenido.' },
+      { q: '¿Qué es el DJI Mic Mini (2 TX %2B 1 RX %2B Estuche de carga)?', a: 'Es un sistema de micrófono inalámbrico que incluye dos transmisores, un receptor y un estuche de carga. Está diseñado para capturar audio de alta calidad en creación de contenido.' },
       { q: '¿Cuántas personas pueden grabar con el DJI Mic Mini?', a: 'El combo permite grabar a dos personas simultáneamente, ya que el receptor puede trabajar con dos transmisores al mismo tiempo.' },
       { q: '¿Cuál es el alcance máximo de transmisión?', a: 'DJI indica una distancia máxima de transmisión de hasta 400 m en un entorno abierto, sin obstáculos y libre de interferencias.' },
       { q: '¿Cuánto dura la batería?', a: 'La autonomía aproximada es de 11,5 horas por transmisor y 10,5 horas para el receptor. Con el estuche, hasta 48 horas de funcionamiento total.' },
@@ -688,7 +688,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-2-combo",
     brand: "DJI",
-    title: "DJI Mic Mini 2 (2 TX + 1 Mobile RX + Estuche de carga)",
+    title: "DJI Mic Mini 2 (2 TX %2B 1 Mobile RX %2B Estuche de carga)",
     sku: "CN9500184NA9",
     originalPrice: 550.00,
     currentPrice: 449.00,
@@ -696,26 +696,26 @@ export const dummyProducts = [
     ratingScore: 4.8,
     reviewCount: 6,
     purchasedThisMonth: 10,
-    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/1.webp",
+    image: "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/1.webp",
     images: [
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/1.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/2.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/3.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/4.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/5.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/6.webp",
-      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX + 1 RX + estuche de carga)/7.webp"
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/1.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/2.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/3.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/4.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/5.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/6.webp",
+      "/images/products/productos/Dji/Microfonos/DJI Mic Mini 2 (2 TX %2B 1 RX %2B estuche de carga)/7.webp"
     ],
     about: [
       { label: 'Marca', value: 'DJI' },
       { label: 'Modelo', value: 'DJI Mic Mini 2' },
-      { label: 'Configuración', value: '2 TX + 1 Mobile RX + Estuche de carga' },
+      { label: 'Configuración', value: '2 TX %2B 1 Mobile RX %2B Estuche de carga' },
       { label: 'Alcance', value: 'Hasta 300 m con receptor móvil' },
       { label: 'Cancelación de ruido', value: '2 niveles' },
       { label: 'Autonomía total', value: 'Hasta 48 h con estuche de carga' }
     ],
-    detailsHeading: 'DJI Mic Mini 2 (2 TX + 1 Mobile RX + Estuche de carga): El compañero perfecto para smartphones.',
-    detailsText: 'El DJI Mic Mini 2 (2 TX + 1 Mobile RX + Estuche de carga) es un sistema de micrófono inalámbrico compacto diseñado especialmente para creadores que graban con smartphones. Incluye dos transmisores, un receptor móvil y un estuche de carga, permitiendo registrar el audio de dos personas simultáneamente con una configuración sencilla y portátil. Ofrece audio de 48 kHz / 24 bits mediante el receptor móvil, transmisión inalámbrica de hasta 300 m, cancelación de ruido en dos niveles y limitación automática para ayudar a evitar clipping.',
+    detailsHeading: 'DJI Mic Mini 2 (2 TX %2B 1 Mobile RX %2B Estuche de carga): El compañero perfecto para smartphones.',
+    detailsText: 'El DJI Mic Mini 2 (2 TX %2B 1 Mobile RX %2B Estuche de carga) es un sistema de micrófono inalámbrico compacto diseñado especialmente para creadores que graban con smartphones. Incluye dos transmisores, un receptor móvil y un estuche de carga, permitiendo registrar el audio de dos personas simultáneamente con una configuración sencilla y portátil. Ofrece audio de 48 kHz / 24 bits mediante el receptor móvil, transmisión inalámbrica de hasta 300 m, cancelación de ruido en dos niveles y limitación automática para ayudar a evitar clipping.',
     features: [
       { title: 'Diseñado para grabación con smartphones', desc: 'El receptor móvil se conecta directamente mediante USB-C para una experiencia plug-and-play.' },
       { title: 'Grabación para dos personas', desc: 'El receptor móvil admite hasta dos transmisores simultáneamente, ideal para entrevistas y vlogs.' },
@@ -747,7 +747,7 @@ export const dummyProducts = [
       { label: 'Rango de transmisión (m)', value: '300 m' }
     ],
     faqs: [
-      { q: '¿Qué es el DJI Mic Mini 2 (2 TX + 1 Mobile RX + Estuche de carga)?', a: 'Es un sistema de micrófono inalámbrico compuesto por dos transmisores, un receptor móvil y un estuche de carga, pensado especialmente para grabar a dos personas con smartphones.' },
+      { q: '¿Qué es el DJI Mic Mini 2 (2 TX %2B 1 Mobile RX %2B Estuche de carga)?', a: 'Es un sistema de micrófono inalámbrico compuesto por dos transmisores, un receptor móvil y un estuche de carga, pensado especialmente para grabar a dos personas con smartphones.' },
       { q: '¿Cuántas personas pueden grabar simultáneamente?', a: 'Hasta dos personas mediante los dos transmisores incluidos.' },
       { q: '¿Cuál es el alcance máximo con el receptor móvil?', a: 'Hasta 300 m con dos transmisores en modo de luz verde, en un entorno abierto, sin interferencias y sin obstáculos.' },
       { q: '¿Qué calidad de audio ofrece con el receptor móvil?', a: 'Hasta 48 kHz / 24 bits.' },
@@ -764,7 +764,7 @@ export const dummyProducts = [
   {
     id: "dji-mic-mini-2s",
     brand: "DJI",
-    title: "DJI Mic Mini 2S (2 TX + 1 RX + Estuche de carga)",
+    title: "DJI Mic Mini 2S (2 TX %2B 1 RX %2B Estuche de carga)",
     sku: "CN9500185NA9",
     originalPrice: 1100.00,
     currentPrice: 950.00,
@@ -787,7 +787,7 @@ export const dummyProducts = [
       { label: 'Cancelación de ruido', value: '2 niveles con IA' },
       { label: 'Autonomía total', value: 'Hasta 40 h con estuche de carga' }
     ],
-    detailsHeading: 'DJI Mic Mini 2S (2 TX + 1 RX + Estuche de carga): Audio profesional con 32-bit float.',
+    detailsHeading: 'DJI Mic Mini 2S (2 TX %2B 1 RX %2B Estuche de carga): Audio profesional con 32-bit float.',
     detailsText: 'El DJI Mic Mini 2S es un sistema de micrófono inalámbrico compacto pensado para creadores de contenido, entrevistas, vlogs, podcasts y producciones audiovisuales. Esta configuración incluye dos transmisores, un receptor y un estuche de carga, permitiendo grabar a dos personas simultáneamente y ampliar el sistema hasta cuatro transmisores compatibles con un solo receptor. Su principal mejora frente a generaciones anteriores es la grabación interna con soporte de 32-bit float, junto con almacenamiento integrado de 14,5 GB, cancelación de ruido mejorada mediante IA y funciones de control de audio.',
     features: [
       { title: 'Grabación interna en 32-bit float', desc: 'Permite conservar un rango dinámico amplio y ofrece mayor flexibilidad para recuperar niveles de audio durante la edición.' },
@@ -867,7 +867,7 @@ export const dummyProducts = [
       },
       {
         "label": "Estabilización",
-        "value": "RockSteady 3.0+ / HorizonSteady"
+        "value": "RockSteady 3.0%2B / HorizonSteady"
       },
       {
         "label": "Resistencia al agua",
@@ -899,7 +899,7 @@ export const dummyProducts = [
     },
     {
       "title": "Estabilización avanzada",
-      "desc": "Incluye RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "desc": "Incluye RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "title": "Hasta 20 m bajo el agua",
@@ -965,7 +965,7 @@ export const dummyProducts = [
     },
     {
       "label": "Estabilización",
-      "value": "RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "value": "RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "label": "Conectividad",
@@ -1019,7 +1019,7 @@ export const dummyProducts = [
     },
     {
       "q": "¿Qué sistemas de estabilización incluye?",
-      "a": "RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "a": "RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "q": "¿Es resistente al agua?",
@@ -1080,7 +1080,7 @@ export const dummyProducts = [
     },
     {
       "label": "Estabilización",
-      "value": "RockSteady 3.0+ / HorizonSteady"
+      "value": "RockSteady 3.0%2B / HorizonSteady"
     },
     {
       "label": "Resistencia al agua",
@@ -1112,7 +1112,7 @@ export const dummyProducts = [
     },
     {
       "title": "Estabilización avanzada",
-      "desc": "Incluye RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "desc": "Incluye RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "title": "Hasta 240 minutos de autonomía",
@@ -1174,7 +1174,7 @@ export const dummyProducts = [
     },
     {
       "label": "Estabilización",
-      "value": "RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "value": "RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "label": "Conectividad",
@@ -1248,7 +1248,7 @@ export const dummyProducts = [
     },
     {
       "q": "¿Qué estabilización utiliza?",
-      "a": "RockSteady 3.0, RockSteady 3.0+, HorizonBalancing y HorizonSteady."
+      "a": "RockSteady 3.0, RockSteady 3.0%2B, HorizonBalancing y HorizonSteady."
     },
     {
       "q": "¿Puede conectarse directamente a micrófonos DJI?",
@@ -1408,7 +1408,7 @@ export const dummyProducts = [
     },
     {
       "label": "Micrófonos incluidos",
-      "value": "3 micrófonos integrados + 1 transmisor DJI Mic 3 incluido en el Creator Combo."
+      "value": "3 micrófonos integrados %2B 1 transmisor DJI Mic 3 incluido en el Creator Combo."
     },
     {
       "label": "Zoom",
@@ -1727,7 +1727,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "2 TX + RX USB-C + RX Lightning + Estuche"
+      "value": "2 TX %2B RX USB-C %2B RX Lightning %2B Estuche"
     },
     {
       "label": "Calidad de audio",
@@ -1914,7 +1914,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "2 TX + RX USB-C + Estuche"
+      "value": "2 TX %2B RX USB-C %2B Estuche"
     },
     {
       "label": "Calidad de audio",
@@ -2106,7 +2106,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "2 TX + RX Cámara + RX USB-C + RX Lightning"
+      "value": "2 TX %2B RX Cámara %2B RX USB-C %2B RX Lightning"
     },
     {
       "label": "Calidad de audio",
@@ -2284,7 +2284,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "2 TX + RX USB-C + Estuche"
+      "value": "2 TX %2B RX USB-C %2B Estuche"
     },
     {
       "label": "Calidad de audio",
@@ -2464,7 +2464,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "2 TX + RX Cámara + RX USB-C + RX Lightning"
+      "value": "2 TX %2B RX Cámara %2B RX USB-C %2B RX Lightning"
     },
     {
       "label": "Calidad de audio",
@@ -2616,7 +2616,7 @@ export const dummyProducts = [
     },
     {
       "q": "¿Qué diferencia hay entre Ultimate Combo y Combo?",
-      "a": "El Ultimate Combo incluye Camera RX + USB-C RX + Lightning RX. El Combo normal incluye solo Camera RX y USB-C RX."
+      "a": "El Ultimate Combo incluye Camera RX %2B USB-C RX %2B Lightning RX. El Combo normal incluye solo Camera RX y USB-C RX."
     }
   ]
 },
@@ -2651,7 +2651,7 @@ export const dummyProducts = [
     },
     {
       "label": "Configuración",
-      "value": "4 TX + RX Cámara + RX USB-C + Estuche"
+      "value": "4 TX %2B RX Cámara %2B RX USB-C %2B Estuche"
     },
     {
       "label": "Calidad de audio",
@@ -2775,7 +2775,7 @@ export const dummyProducts = [
     },
     {
       "q": "¿Graba cuatro pistas independientes?",
-      "a": "No mediante la salida del receptor. En Mono se mezclan; en Stereo, Mic 1+3 van al izquierdo y Mic 2+4 al derecho."
+      "a": "No mediante la salida del receptor. En Mono se mezclan; en Stereo, Mic 1%2B3 van al izquierdo y Mic 2%2B4 al derecho."
     },
     {
       "q": "¿Tiene grabación interna?",
