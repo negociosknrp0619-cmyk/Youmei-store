@@ -2,7 +2,8 @@
 import { useState, useMemo, Suspense, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import ProductCard from '../../components/ProductCard';
-import { dummyProducts } from '../../data/dummyProducts';
+import { db } from '../../lib/firebase';
+import { collection, getDocs } from 'firebase/firestore';
 import styles from './page.module.css';
 
 function ProductosContent() {
@@ -15,6 +16,24 @@ function ProductosContent() {
   const [selectedCategories, setSelectedCategories] = useState(initialCategory ? [initialCategory.toLowerCase()] : []);
   const [sortOption, setSortOption] = useState('relevancia'); // relevancia, precio_asc, precio_desc
   const [priceRange, setPriceRange] = useState([0, 5000]);
+  const [allProducts, setAllProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const snap = await getDocs(collection(db, 'products'));
+        const prods = [];
+        snap.forEach(doc => prods.push({ id: doc.id, ...doc.data() }));
+        setAllProducts(prods);
+      } catch (err) {
+        console.error('Error fetching products', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProducts();
+  }, []);
 
   // Sincronizar parámetros de la URL si cambian sin desmontar la página (ej. clics en Navbar)
   useEffect(() => {
@@ -85,7 +104,7 @@ function ProductosContent() {
   };
 
   const filteredProducts = useMemo(() => {
-    let prods = [...dummyProducts];
+    let prods = [...allProducts];
 
     // Búsqueda
     if (query) {

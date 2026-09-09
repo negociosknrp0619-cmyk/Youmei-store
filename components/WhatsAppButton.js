@@ -9,7 +9,7 @@ export default function WhatsAppButton() {
         <span>Comunícate con nosotros</span>
       </div>
       <a
-        href="https://wa.link/tqaf7v"
+        href="https://wa.me/51983725740?text=Hola%20Youmei%20Store%2C%20necesito%20ayuda"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.whatsappButton}

@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { dummyProducts } from '../../../data/dummyProducts';
+import { db } from '../../../lib/firebase';
+import { doc, getDoc, collection, getDocs } from 'firebase/firestore';
 import ProductCard from '../../../components/ProductCard';
 import { useCart } from '../../../components/CartProvider';
 import { WHATSAPP_NUMBER } from '../../../data/products';
@@ -14,8 +15,32 @@ export default function ProductPage({ params }) {
   const router = useRouter();
   const { addToCart } = useCart();
   // Use dummy-1 if not found, just for mockup purposes
-  const product = dummyProducts.find(p => p.id === unwrappedParams.id) || dummyProducts[0];
+  const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  React.useEffect(() => {
+    const fetchProduct = async () => {
+      try {
+        const docRef = doc(db, 'products', unwrappedParams.id);
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          setProduct({ id: docSnap.id, ...docSnap.data() });
+        } else {
+          // fallback or handle not found
+        }
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProduct();
+  }, [unwrappedParams.id]);
   const [isAdding, setIsAdding] = useState(false);
+
+  if (loading) return <div style={{padding: '5rem', textAlign: 'center'}}>Cargando producto...</div>;
+  if (!product) return <div style={{padding: '5rem', textAlign: 'center'}}>Producto no encontrado</div>;
+
   const [isAddingSticky, setIsAddingSticky] = useState(false);
 
   const [zoomStyle, setZoomStyle] = useState({ transformOrigin: 'center center', transform: 'scale(1)' });
