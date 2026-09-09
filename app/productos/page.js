@@ -155,7 +155,7 @@ function ProductosContent() {
     }
 
     return prods;
-  }, [query, selectedBrands, selectedCategories, priceRange, sortOption]);
+  }, [allProducts, query, selectedBrands, selectedCategories, priceRange, sortOption]);
 
   const breadcrumbText = query ? `Búsqueda: ${query}` : (initialBrand || 'Todos');
 
@@ -163,6 +163,9 @@ function ProductosContent() {
     <div className={styles.container}>
       <div className={styles.breadcrumb}>
         <span>Inicio</span> / <span className={styles.activeBreadcrumb}>{breadcrumbText}</span>
+        <span style={{color: 'red', marginLeft: '10px'}}>
+          [DEBUG: all={allProducts.length}, filtered={filteredProducts.length}, load={loading ? '1' : '0'}, err={fetchError}]
+        </span>
       </div>
       
       <div className={styles.layout}>
