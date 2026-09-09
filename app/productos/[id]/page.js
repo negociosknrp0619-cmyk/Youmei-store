@@ -133,7 +133,7 @@ export default function ProductPage({ params }) {
                       className={`${styles.thumbnail} ${activeImageIndex === idx ? styles.activeThumbnail : ''}`}
                       onClick={() => setActiveImageIndex(idx)}
                     >
-                      <Image src={img} alt={`thumb-${idx}`} fill style={{ objectFit: 'contain', padding: '4px' }} unoptimized />
+                      <Image src={encodeURI(img)} alt={`thumb-${idx}`} fill style={{ objectFit: 'contain', padding: '4px' }} unoptimized />
                     </div>
                   );
                 })}
@@ -167,7 +167,7 @@ export default function ProductPage({ params }) {
               &lt;
             </div>
             <div className={styles.imageZoomContainer} style={zoomStyle}>
-              <Image src={currentImage} alt={product.title} fill style={{ objectFit: 'contain', padding: '2rem' }} unoptimized />
+              <Image src={encodeURI(currentImage)} alt={product.title} fill style={{ objectFit: 'contain', padding: '2rem' }} unoptimized />
             </div>
             <div 
               className={styles.navArrowRight} 
