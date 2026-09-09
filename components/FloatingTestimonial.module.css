@@ -1,0 +1,52 @@
+.popup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 15px 20px;
+  z-index: 9999;
+  transform: translateY(150%) scale(0.9);
+  opacity: 0;
+  transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.6s ease;
+  pointer-events: none; /* So it doesn't block clicks */
+}
+
+.popup.visible {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.stars {
+  color: #ffb400; /* Color amarillo estrella */
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.text {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 12px;
+  font-family: inherit;
+}
+
+.author {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+/* En dispositivos muy pequeños, ajustar tamaño o posición si es necesario */
+@media (max-width: 480px) {
+  .popup {
+    width: calc(100% - 40px);
+    bottom: 20px;
+    left: 20px;
+  }
+}

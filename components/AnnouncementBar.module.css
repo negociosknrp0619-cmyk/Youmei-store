@@ -1,0 +1,30 @@
+.bar {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 10px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #1a1a1a;
+  position: relative;
+  z-index: 101; /* Encima del navbar */
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: scroll 100s linear infinite;
+}
+
+.item {
+  padding: 0 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #eeeeee;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

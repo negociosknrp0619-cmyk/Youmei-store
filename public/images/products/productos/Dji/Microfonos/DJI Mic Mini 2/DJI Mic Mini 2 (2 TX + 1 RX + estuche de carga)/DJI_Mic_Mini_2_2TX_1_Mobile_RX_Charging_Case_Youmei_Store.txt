@@ -1,0 +1,177 @@
+DJI MIC MINI 2 (2 TX + 1 MOBILE RX + CHARGING CASE)
+Ficha de producto - Youmei Store
+
+==================================================
+1. ACERCA DEL PRODUCTO
+==================================================
+
+Marca: DJI
+Modelo: DJI Mic Mini 2
+Configuración: 2 TX + 1 Mobile RX + Charging Case
+Tipo: Micrófono inalámbrico
+Alcance: Hasta 300 m con receptor móvil
+Cancelación de ruido: 2 niveles
+Autonomía: Hasta 48 h con estuche de carga
+
+
+==================================================
+2. DETALLES
+==================================================
+
+DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case)
+
+El DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case) es un sistema de micrófono inalámbrico compacto diseñado especialmente para creadores que graban con smartphones. Incluye dos transmisores, un receptor móvil y un estuche de carga, permitiendo registrar el audio de dos personas simultáneamente con una configuración sencilla y portátil.
+
+Ofrece audio de 48 kHz / 24 bits mediante el receptor móvil, transmisión inalámbrica de hasta 300 m, cancelación de ruido en dos niveles, limitación automática para ayudar a evitar clipping y tres preajustes de tono de voz. Además, incorpora cubiertas frontales magnéticas intercambiables y compatibilidad directa con dispositivos DJI mediante OsmoAudio™.
+
+
+CARACTERÍSTICAS PRINCIPALES
+
+• Diseñado para grabación con smartphones
+El receptor móvil DJI Mic Series Mobile Receiver se conecta directamente mediante USB-C para una experiencia plug-and-play. Para dispositivos Lightning se requiere el adaptador USB-C a Lightning compatible, vendido por separado.
+
+• Grabación para dos personas
+El receptor móvil admite hasta dos transmisores simultáneamente, ideal para entrevistas, vlogs, contenido colaborativo y transmisiones en vivo.
+
+• Audio de 48 kHz / 24 bits
+Al utilizar el receptor móvil, el sistema admite audio digital de alta calidad de 48 kHz / 24 bits.
+
+• Transmisión de hasta 300 m
+Con dos transmisores DJI Mic Mini 2 conectados al receptor móvil en modo de luz verde, el alcance máximo es de hasta 300 m en entornos abiertos, sin obstáculos y libres de interferencias.
+
+• Cancelación de ruido en 2 niveles
+Permite seleccionar entre niveles Basic y Strong para adaptarse a ambientes tranquilos o ruidosos.
+
+• Limitación automática
+Reduce automáticamente el nivel cuando la entrada de audio es demasiado alta, ayudando a evitar clipping y distorsión.
+
+• Tres preajustes de tono de voz
+Incluye preajustes de voz que permiten adaptar el carácter del audio según el tipo de voz o contenido.
+
+• Diseño compacto y ligero
+Cada transmisor pesa aproximadamente 11 g, sin incluir el clip magnético ni el imán.
+
+• Cubiertas frontales magnéticas intercambiables
+Los transmisores incluyen cubiertas frontales magnéticas en Obsidian Black y Glaze White para personalizar su apariencia.
+
+• Hasta 48 horas de uso con el estuche
+El sistema puede alcanzar hasta 48 horas de funcionamiento total utilizando el estuche de carga en las condiciones de prueba indicadas por DJI.
+
+• DJI OsmoAudio™
+Los transmisores pueden conectarse directamente a determinados dispositivos DJI compatibles, simplificando el equipo necesario durante la grabación.
+
+
+PREGUNTAS FRECUENTES
+
+1. ¿Qué es el DJI Mic Mini 2 (2 TX + 1 Mobile RX + Charging Case)?
+Es un sistema de micrófono inalámbrico compuesto por dos transmisores, un receptor móvil y un estuche de carga, pensado especialmente para grabar a dos personas con smartphones.
+
+2. ¿Cuántas personas pueden grabar simultáneamente?
+Hasta dos personas mediante los dos transmisores incluidos.
+
+3. ¿Cuál es el alcance máximo con el receptor móvil?
+Hasta 300 m con dos transmisores DJI Mic Mini 2 en modo de luz verde, en un entorno abierto, sin interferencias y sin obstáculos.
+
+4. ¿Qué calidad de audio ofrece con el receptor móvil?
+Hasta 48 kHz / 24 bits.
+
+5. ¿Tiene cancelación de ruido?
+Sí. Incorpora dos niveles: Basic y Strong.
+
+6. ¿Tiene limitación automática?
+Sí. Ayuda a reducir el riesgo de clipping cuando la entrada de audio aumenta demasiado.
+
+7. ¿Tiene almacenamiento interno?
+No. El transmisor DJI Mic Mini 2 no dispone de almacenamiento interno.
+
+8. ¿Cuánto dura la batería?
+Cada transmisor ofrece aproximadamente 11,5 horas de funcionamiento. Con el estuche de carga, el sistema puede alcanzar hasta 48 horas de uso total en condiciones de prueba de DJI.
+
+9. ¿Con qué dispositivos DJI puede conectarse directamente mediante OsmoAudio™?
+Los transmisores pueden conectarse directamente por Bluetooth a Osmo Pocket 4, Osmo 360, Osmo Nano y Osmo Action 6.
+
+10. ¿Con qué dispositivos funciona el receptor móvil?
+El receptor móvil puede utilizarse con smartphones USB-C, computadoras USB-C y dispositivos compatibles como Osmo Action 4, Osmo Action 5 Pro, Osmo Pocket 4 y Osmo 360.
+
+11. ¿Funciona con iPhone con puerto Lightning?
+Sí, pero requiere el DJI Mic Series Mobile Receiver Adapter (USB-C a Lightning), vendido por separado.
+
+12. ¿El receptor móvil tiene batería propia?
+No. Cuando se conecta mediante USB-C, se alimenta del dispositivo conectado.
+
+
+==================================================
+3. ESPECIFICACIONES
+==================================================
+
+Marca
+DJI
+
+Modelo
+DJI Mic Mini 2
+
+Fecha de Despacho
+-
+
+Tipo
+Micrófono inalámbrico
+
+Calidad de audio
+Audio de 48 kHz / 24 bits mediante receptor móvil, cancelación de ruido en 2 niveles y limitación automática para ayudar a evitar distorsión. No tiene almacenamiento interno.
+
+Respuesta de frecuencia (Hz)
+Filtro de paso alto desactivado: 20 Hz a 20 kHz. Filtro de paso alto activado: 100 Hz a 20 kHz.
+
+Micrófonos incluidos
+Sí, 2 transmisores
+
+Cancelación de ruido
+Sí, 2 niveles
+
+Conectividad
+Bluetooth 5.3 y receptor móvil USB-C
+
+Capacidad de la batería (en mAh)
+Transmisor: 114 mAh cada uno. Estuche de carga: 1950 mAh. El receptor móvil se alimenta del dispositivo conectado.
+
+Duración de la batería
+Transmisor: aprox. 11,5 horas. Hasta 48 horas de funcionamiento total con el estuche de carga.
+
+Tiempo de carga
+Transmisor: aprox. 70 minutos. Estuche de carga: aprox. 2 horas.
+
+Estuche de carga
+DMMC02
+
+Compatibilidad
+Smartphones USB-C, computadoras USB-C, Osmo Action 4, Osmo Action 5 Pro, Osmo Pocket 4 y Osmo 360 mediante receptor móvil. Conexión directa DJI OsmoAudio™ con Osmo Pocket 4, Osmo 360, Osmo Nano y Osmo Action 6.
+
+Resistencia al agua
+No
+
+Resistencia al polvo
+No
+
+Año de lanzamiento
+2026
+
+Dimensiones
+Transmisor: 28,58 × 28,04 × 13,52 mm (L × W × H)
+
+Peso
+Aprox. 11 g por transmisor, sin clip magnético ni imán
+
+Incluye
+2 × Transmisor DJI Mic Mini 2 - 1 × DJI Mic Series Mobile Receiver - 1 × Estuche de carga DJI Mic Mini 2 - cubiertas frontales magnéticas Obsidian Black y Glaze White - antivientos - clips/imanes magnéticos - cable de carga USB-C - 1 × funda de transporte DJI Mic Mini.
+
+Garantía del proveedor
+1 año
+
+Rango de transmisión (m)
+300 m
+
+
+NOTAS
+- Los 300 m corresponden al uso del DJI Mic Series Mobile Receiver con dos transmisores DJI Mic Mini 2 en modo de luz verde, en un entorno abierto, sin interferencias y sin obstáculos.
+- Con el receptor DJI Mic Mini convencional, el DJI Mic Mini 2 puede alcanzar hasta 400 m, pero ese receptor no forma parte de esta configuración.
+- El adaptador DJI Mic Series Mobile Receiver USB-C a Lightning se vende por separado.

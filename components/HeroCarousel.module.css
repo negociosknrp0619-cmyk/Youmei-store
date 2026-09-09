@@ -1,0 +1,290 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050505; /* Fondo muy oscuro por si la imagen tarda en cargar */
+  overflow: hidden;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 5;
+}
+
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.leftArrow {
+  left: 20px;
+}
+
+.rightArrow {
+  right: 20px;
+}
+
+.sidebar {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 20;
+}
+
+.sidebarItem {
+  color: #888;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding-left: 15px;
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.sidebarItem:hover {
+  color: #ccc;
+}
+
+.activeSidebarItem {
+  color: #fff;
+  font-weight: 600;
+  border-left: 2px solid #fff;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Image styles */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.active .imageContainer img {
+  animation: scaleIn 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Text Overlay Styles */
+.textOverlay {
+  position: absolute;
+  top: 13%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 15;
+  pointer-events: none; /* Let clicks pass through to container if needed, except for buttons */
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #c0c0c0;
+  margin-bottom: 2px;
+  font-weight: 400;
+  opacity: 0;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0px;
+  opacity: 0;
+}
+
+.tagline {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 8px 0;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #999999;
+  margin: 5px 0 20px 0;
+  max-width: 500px;
+  line-height: 1.5;
+  white-space: pre-line;
+  opacity: 0;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 15px;
+  pointer-events: auto; /* Enable clicks on buttons */
+  opacity: 0;
+}
+
+/* Trigger animations when slide is active */
+.active .subtitle {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.2s;
+}
+
+.active .title {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.3s;
+}
+
+.active .tagline {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.4s;
+}
+
+.active .description {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.5s;
+}
+
+.active .buttonGroup {
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: 0.6s;
+}
+
+.primaryBtn, .secondaryBtn {
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.primaryBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.primaryBtn:hover {
+  background-color: #f0f0f0;
+}
+
+.secondaryBtn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.secondaryBtn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .textOverlay {
+    top: 12%; /* Keep it high on mobile to avoid product overlap */
+  }
+  
+  .title {
+    font-size: 2.2rem;
+  }
+  
+  .tagline {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+  
+  .description {
+    font-size: 0.8rem;
+    padding: 0 20px;
+  }
+
+  .buttonGroup {
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .primaryBtn, .secondaryBtn {
+    padding: 8px 15px;
+    font-size: 0.75rem;
+  }
+  
+  .leftArrow,
+  .rightArrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
+  .leftArrow {
+    left: 10px;
+  }
+  
+  .rightArrow {
+    right: 10px;
+  }
+}
+

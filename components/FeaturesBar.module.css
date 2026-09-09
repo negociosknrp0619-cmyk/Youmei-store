@@ -1,0 +1,64 @@
+.featuresSection {
+  background-color: #0a0a0a; /* Un negro un poco más claro que el header para diferenciar */
+  padding: 60px 0;
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  min-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.featureItem:hover {
+  transform: translateY(-5px);
+}
+
+.iconContainer {
+  color: #d12027; /* Rojo de la marca */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.featureItem:hover .iconContainer {
+  color: #ef3b43;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .featuresContainer {
+    gap: 40px;
+  }
+  
+  .featureItem {
+    min-width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .featureItem {
+    min-width: 100%;
+  }
+}

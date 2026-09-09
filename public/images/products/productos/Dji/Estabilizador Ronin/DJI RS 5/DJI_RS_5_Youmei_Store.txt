@@ -1,0 +1,181 @@
+DJI RS 5
+Ficha de producto - Youmei Store
+
+==================================================
+1. ACERCA DEL PRODUCTO
+==================================================
+
+Marca: DJI
+Modelo: RS 5
+Tipo: Estabilizador profesional de 3 ejes para cámara
+Carga útil: Hasta 3 kg
+Estabilización: Algoritmo de estabilización RS de 5.ª generación
+Bloqueo de ejes: Automático, 2.ª generación
+Autonomía: Aprox. 14 horas
+Tiempo de carga: Aprox. 1 hora
+Disparo vertical: Sí
+
+
+==================================================
+2. DETALLES
+==================================================
+
+DJI RS 5
+
+El DJI RS 5 es un estabilizador profesional de 3 ejes diseñado para cámaras mirrorless y configuraciones de grabación de hasta 3 kg. Combina un cuerpo relativamente ligero con estabilización de quinta generación, bloqueos automáticos de ejes de segunda generación y controles de ajuste fino para facilitar el equilibrado de cámaras y objetivos.
+
+La versión estándar incluye la empuñadura de batería BG33, placas superior e inferior de liberación rápida, soporte para objetivo y trípode Quick-Open. El módulo de seguimiento inteligente mejorado y la empuñadura electrónica tipo maletín se venden por separado o vienen incluidos en el RS 5 Combo.
+
+
+CARACTERÍSTICAS PRINCIPALES
+
+• Carga útil probada de hasta 3 kg
+Permite utilizar una amplia variedad de cámaras mirrorless, objetivos y accesorios dentro del límite de carga especificado por DJI.
+
+• Estabilización de 5.ª generación
+El algoritmo de estabilización RS de quinta generación mejora el control del gimbal durante desplazamientos, tomas dinámicas y movimientos de cámara.
+
+• Bloqueos automáticos de ejes de 2.ª generación
+Los ejes se bloquean automáticamente cuando el gimbal se apaga o entra en reposo y se desbloquean al encenderlo.
+
+• Perillas de ajuste fino
+Los brazos de los ejes incorporan controles de ajuste fino y superficies con Teflon™ para facilitar un equilibrado más preciso.
+
+• Indicador del eje Z
+Ofrece información visual para ayudar al operador a mejorar sus pasos y reducir el movimiento vertical durante la grabación.
+
+• Pantalla OLED táctil de 1,8 pulgadas
+Permite acceder a parámetros, modos de seguimiento compatibles, configuración del gimbal y controles principales.
+
+• Disparo vertical nativo
+Admite configuración vertical de tercera generación para grabar contenido orientado a redes sociales.
+
+• Hasta 14 horas de autonomía
+La empuñadura BG33 ofrece aproximadamente 14 horas de funcionamiento con el gimbal equilibrado y estacionario.
+
+• Carga completa en aproximadamente 1 hora
+La batería puede cargarse en alrededor de una hora utilizando un cargador de 65 W compatible con USB Power Delivery.
+
+• Control de cámara por Bluetooth
+Con cámaras compatibles, permite utilizar funciones como inicio/parada de grabación y otras funciones disponibles desde el estabilizador.
+
+• Compatible con seguimiento inteligente
+Puede utilizarse con el DJI RS Enhanced Intelligent Tracking Module, vendido por separado, para seguimiento de personas, vehículos, mascotas y otros sujetos.
+
+
+PREGUNTAS FRECUENTES
+
+1. ¿Qué es el DJI RS 5?
+Es un estabilizador profesional de 3 ejes para cámaras, diseñado para configuraciones de hasta 3 kg.
+
+2. ¿Cuánto peso soporta?
+DJI especifica una carga útil probada máxima de 3 kg.
+
+3. ¿Qué diferencia hay entre DJI RS 5 y DJI RS 5 Combo?
+El RS 5 estándar no incluye el RS Enhanced Intelligent Tracking Module ni el Electronic Briefcase Handle. Estos accesorios sí forman parte del RS 5 Combo.
+
+4. ¿Incluye módulo de seguimiento inteligente?
+No. Puede utilizarse con el RS Enhanced Intelligent Tracking Module, pero se adquiere por separado.
+
+5. ¿Incluye empuñadura tipo maletín?
+No. La Electronic Briefcase Handle se vende por separado.
+
+6. ¿Cuánto dura la batería?
+Aproximadamente 14 horas en las condiciones de prueba indicadas por DJI.
+
+7. ¿Cuánto tarda en cargarse?
+Aproximadamente 1 hora utilizando un cargador de 65 W compatible con PD.
+
+8. ¿Permite grabación vertical?
+Sí. Admite disparo vertical nativo.
+
+9. ¿Tiene bloqueos automáticos de ejes?
+Sí. Incorpora bloqueos automáticos de segunda generación.
+
+10. ¿Puede controlar cámaras por Bluetooth?
+Sí, con modelos de cámara compatibles.
+
+11. ¿Es compatible con cualquier cámara?
+No. La cámara, objetivo y accesorios deben ser compatibles y mantenerse dentro de la carga útil máxima de 3 kg. DJI dispone de una lista oficial de compatibilidad Ronin.
+
+12. ¿Es resistente al agua o al polvo?
+No. DJI indica que los puertos del RS 5 no son resistentes al agua ni al polvo.
+
+
+==================================================
+3. ESPECIFICACIONES
+==================================================
+
+Marca
+DJI
+
+Modelo
+RS 5
+
+Fecha de Despacho
+-
+
+Tipo
+Estabilizador profesional de 3 ejes para cámara
+
+Estabilización
+Algoritmo de estabilización RS de 5.ª generación y bloqueos automáticos de ejes de 2.ª generación.
+
+Seguimiento
+Compatible con RS Enhanced Intelligent Tracking Module, vendido por separado.
+
+Conectividad
+Bluetooth 5.0, USB-C, puertos RSA/NATO, puerto de control de cámara USB-C y puerto multifunción USB-C.
+
+Capacidad de la batería (en mAh)
+2150 mAh, batería BG33 LiPo 4S.
+
+Duración de la batería
+Aprox. 14 horas.
+
+Tiempo de carga
+Aprox. 1 hora con cargador de 65 W compatible con PD.
+
+Compatibilidad
+Cámaras y objetivos compatibles con DJI Ronin, dentro de una carga útil máxima de 3 kg.
+
+Carga útil
+Hasta 3 kg.
+
+Disparo vertical
+Sí.
+
+Rotación
+Paneo: 360° continuo. Roll: -95° a +240°. Tilt: -112° a +214°.
+
+Velocidad máxima de control
+360°/s en los ejes Pan, Tilt y Roll.
+
+Resistencia al agua
+No.
+
+Resistencia al polvo
+No.
+
+Año de lanzamiento
+2026
+
+Dimensiones
+Plegado: 247,4 × 115,7 × 258,7 mm. Desplegado: 223,2 × 192,2 × 418,8 mm.
+
+Peso
+Gimbal: aprox. 1193 g. Empuñadura BG33: aprox. 274 g. Trípode Quick-Open: aprox. 149 g.
+
+Incluye
+1 × Gimbal DJI RS 5 - 1 × Quick-Open Tripod - 1 × Lens-Fastening Support - 1 × Screw Kit - 1 × RS 5 Upper Quick-Release Plate - 1 × RS 5 Lower Quick-Release Plate - 1 × BG33 Battery Grip - 1 × Multi-Camera Control Cable USB-C de 30 cm - 1 × DJI Logo Sticker.
+
+Garantía del proveedor
+1 año
+
+
+NOTAS
+- La versión estándar DJI RS 5 no incluye el RS Enhanced Intelligent Tracking Module ni la Electronic Briefcase Handle.
+- La carga útil probada máxima es de 3 kg.
+- La autonomía de aproximadamente 14 horas fue medida con el gimbal equilibrado, nivelado y estacionario.
+- La carga completa en aproximadamente 1 hora requiere un cargador de 65 W compatible con USB PD.
+- Para confirmar compatibilidad con una cámara y objetivo específicos debe consultarse la lista oficial DJI Ronin.

@@ -1,0 +1,176 @@
+HOLLYLAND LARK MAX 2 COMBO - 4 PERSONAS
+Ficha de producto - Youmei Store
+
+==================================================
+1. ACERCA DEL PRODUCTO
+==================================================
+
+Marca: Hollyland
+Modelo: LARK MAX 2
+Configuración: 4 TX + receptor para cámara + receptor USB-C + estuche de carga
+Tipo: Micrófono inalámbrico profesional
+Calidad de audio: 48 kHz / 32-bit float y 48 kHz / 24-bit
+Alcance: Hasta 340 m
+Cancelación de ruido: Sí, mediante IA
+Grabación interna: 8 GB por transmisor
+Autonomía: Aprox. 11 h por transmisor / hasta 36 h con estuche
+
+
+==================================================
+2. DETALLES
+==================================================
+
+Hollyland LARK MAX 2 Combo - Versión para 4 personas
+
+El Hollyland LARK MAX 2 Combo para 4 personas es un sistema de micrófono inalámbrico profesional diseñado para entrevistas grupales, podcasts, producciones audiovisuales, eventos y transmisiones en vivo. Esta versión incluye cuatro transmisores y permite conectar los cuatro micrófonos simultáneamente a un solo receptor.
+
+Ofrece transmisión de audio de cadena completa en 32-bit float, grabación interna de respaldo en cada transmisor, cancelación de ruido mediante IA, sincronización por timecode y un alcance inalámbrico de hasta 340 m en línea de visión.
+
+CARACTERÍSTICAS PRINCIPALES
+
+• Hasta 4 transmisores con 1 receptor
+Permite conectar hasta cuatro micrófonos simultáneamente a un solo receptor, ideal para entrevistas grupales, mesas de conversación, podcasts y producciones con varios participantes.
+
+• Audio Full-Chain de 32-bit float
+Admite transmisión digital de audio en 48 kHz / 32-bit float mediante dispositivos de grabación compatibles, además de 48 kHz / 24-bit.
+
+• Grabación interna en 32-bit float
+Cada transmisor integra 8 GB de almacenamiento y puede funcionar como grabador independiente para disponer de una copia de seguridad del audio.
+
+• Hasta 14 horas de grabación interna
+Los transmisores pueden almacenar hasta aproximadamente 14 horas de audio interno en 24 bits; también admiten grabación interna en 32-bit float.
+
+• Cancelación de ruido mediante IA
+La cancelación de ruido utiliza procesamiento inteligente para separar la voz del ruido ambiental y ofrece una profundidad de reducción ajustable de hasta 25 dB.
+
+• Timecode integrado
+El receptor incorpora sincronización de código de tiempo para facilitar la alineación del audio y el video durante la postproducción.
+
+• Alcance de hasta 340 m
+Ofrece transmisión inalámbrica estable de hasta 340 m en línea de visión y aproximadamente 60 m sin línea de visión, según las condiciones de prueba de Hollyland.
+
+• Transmisores compactos de 14 g
+Cada transmisor pesa aproximadamente 14 g, facilitando una colocación discreta y cómoda sobre la ropa.
+
+• Hasta 36 horas con estuche de carga
+Cada transmisor ofrece aproximadamente 11 horas de funcionamiento. El sistema puede alcanzar hasta 36 horas de autonomía total utilizando el estuche de carga en las condiciones indicadas por Hollyland.
+
+• Receptor para cámara y receptor USB-C
+La versión para 4 personas incluye receptor para cámara y receptor USB-C, permitiendo integrarlo con cámaras, smartphones, computadoras y determinadas cámaras de acción.
+
+PREGUNTAS FRECUENTES
+
+1. ¿Para cuántas personas está diseñado el Hollyland LARK MAX 2 Combo 4-Person?
+Está diseñado para grabar hasta cuatro personas simultáneamente utilizando cuatro transmisores conectados a un solo receptor.
+
+2. ¿Incluye cuatro micrófonos?
+Sí. La versión 4-Person incluye cuatro transmisores LARK MAX 2.
+
+3. ¿Puede un solo receptor conectarse con los cuatro transmisores?
+Sí. Tanto el receptor para cámara como el receptor USB-C pueden enlazarse con hasta cuatro micrófonos simultáneamente.
+
+4. ¿Graba cuatro pistas independientes?
+No mediante la salida del receptor. En modo Mono, las señales de los cuatro transmisores se mezclan. En Stereo, Mic 1 + Mic 3 se envían al canal izquierdo y Mic 2 + Mic 4 al derecho.
+
+5. ¿Tiene grabación interna?
+Sí. Cada transmisor cuenta con 8 GB de almacenamiento interno y admite grabación independiente.
+
+6. ¿Admite audio en 32-bit float?
+Sí. Admite grabación interna en 32-bit float y transmisión Full-Chain de 32-bit float mediante dispositivos compatibles.
+
+7. ¿Tiene cancelación de ruido?
+Sí. Incorpora cancelación de ruido mediante IA con ajuste de profundidad de reducción.
+
+8. ¿Cuál es el alcance máximo?
+Hasta 340 m en línea de visión, en un entorno abierto y libre de interferencias.
+
+9. ¿Cuánto dura la batería?
+Cada transmisor ofrece aproximadamente 11 horas y el receptor para cámara aproximadamente 12 horas. Con el estuche de carga, Hollyland indica hasta 36 horas de autonomía total para el sistema.
+
+10. ¿Tiene timecode?
+Sí. Integra código de tiempo para facilitar la sincronización entre audio y video.
+
+11. ¿Se puede utilizar monitoreo inalámbrico con cuatro transmisores?
+No. Hollyland indica que el monitoreo inalámbrico no está disponible cuando se utiliza el modo 4 Mic & 1 RX.
+
+12. ¿Con qué dispositivos es compatible?
+El receptor para cámara puede conectarse con cámaras, smartphones y cámaras de acción; el receptor USB-C puede utilizarse con smartphones, computadoras y cámaras de acción USB-C compatibles.
+
+
+==================================================
+3. ESPECIFICACIONES
+==================================================
+
+Marca
+Hollyland
+
+Modelo
+LARK MAX 2
+
+Fecha de Despacho
+-
+
+Tipo
+Micrófono inalámbrico profesional
+
+Calidad de audio
+48 kHz / 32-bit float y 48 kHz / 24-bit, SNR ≥72 dB, SPL máximo de 128 dB y grabación interna de 8 GB por transmisor.
+
+Respuesta de frecuencia (Hz)
+20 Hz a 20 kHz.
+
+Micrófonos incluidos
+Sí, 4 transmisores
+
+Cancelación de ruido
+Sí, cancelación de ruido mediante IA.
+
+Conectividad
+2,4 GHz, USB-C y audio TRS de 3,5 mm mediante los receptores incluidos.
+
+Capacidad de la batería (en mAh)
+Transmisor: 167 mAh cada uno. Receptor para cámara: 300 mAh. Estuche de carga: 2000 mAh.
+
+Duración de la batería
+Transmisor: aprox. 11 horas. Receptor para cámara: aprox. 12 horas. Hasta 36 horas de autonomía total con el estuche.
+
+Tiempo de carga
+Transmisor: aprox. 1,5 horas. Receptor para cámara: aprox. 1,5 horas. Estuche de carga: aprox. 2 horas.
+
+Estuche de carga
+Sí, incluido.
+
+Compatibilidad
+Cámaras, smartphones, computadoras y cámaras de acción compatibles. Incluye receptor para cámara y receptor USB-C. El receptor admite hasta 4 transmisores LARK MAX 2 simultáneamente.
+
+Resistencia al agua
+No especificada
+
+Resistencia al polvo
+No especificada
+
+Año de lanzamiento
+2025
+
+Dimensiones
+Transmisor: aprox. 23,4 × 10,2 × 45,1 mm. Receptor para cámara: aprox. 54,2 × 22,3 × 29,5 mm. Receptor USB-C: aprox. 40,7 × 9,1 × 27 mm.
+
+Peso
+Transmisor: aprox. 14 g cada uno. Receptor para cámara: aprox. 24 g. Receptor USB-C: aprox. 5,9 g. Estuche de carga: aprox. 136 g.
+
+Incluye
+4 × Transmisor Hollyland LARK MAX 2 - 1 × Receptor para cámara LARK MAX 2 - 1 × Receptor USB-C LARK MAX 2 - 1 × Estuche de carga LARK MAX 2 - accesorios de montaje magnético, antivientos y cables de conexión/carga correspondientes al kit.
+
+Garantía del proveedor
+1 año
+
+Rango de transmisión (m)
+340 m
+
+
+NOTAS
+- El alcance de 340 m corresponde a línea de visión (LOS) en un entorno abierto, sin obstáculos y libre de interferencias. Hollyland indica aproximadamente 60 m en NLOS.
+- El modo 4 Mic & 1 RX requiere firmware compatible.
+- En el modo 4 Mic & 1 RX no está disponible el monitoreo inalámbrico.
+- En Mono se mezclan los cuatro transmisores. En Stereo, Mic 1 + Mic 3 se asignan al canal izquierdo y Mic 2 + Mic 4 al derecho.
+- La grabación Full-Chain de 32-bit float requiere un dispositivo de grabación compatible con 32-bit mediante USB-C.

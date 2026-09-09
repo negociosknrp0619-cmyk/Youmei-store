@@ -1,0 +1,94 @@
+.brandSection {
+  background-color: #ffffff;
+  padding: 27.5px 0; /* Altura total de 120px (27.5 + 65 + 27.5) */
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Infinite Marquee Styles */
+.marqueeContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Fading edges for the marquee (white fade) */
+.marqueeContainer::before,
+.marqueeContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 15vw;
+  max-width: 250px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marqueeContainer::before {
+  left: 0;
+  background: linear-gradient(to right, #ffffff 0%, transparent 100%);
+}
+
+.marqueeContainer::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff 0%, transparent 100%);
+}
+
+.marquee {
+  display: flex;
+  width: fit-content;
+  /* Scroll lento continuo de derecha a izquierda */
+  animation: scroll 40s linear infinite;
+}
+
+.marqueeContent {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.brandWrapper {
+  width: 25vw; /* Exactamente 4 marcas por pantalla (100vw / 4) */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandImage {
+  object-fit: contain;
+  width: auto;
+  max-width: 80%; /* Asegura que no choque con los bordes de su contenedor */
+  height: 65px; /* Altura más balanceada */
+  mix-blend-mode: multiply;
+  /* Eliminar falso fondo cuadriculado aumentando el contraste al máximo */
+  filter: grayscale(100%) contrast(5) brightness(1.2);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 768px) {
+  .brandSection {
+    padding: 40px 0;
+  }
+  .brandWrapper {
+    width: 33.33vw; /* 3 marcas por pantalla en móviles */
+    padding: 0;
+  }
+  .brandImage {
+    height: 40px;
+  }
+}
