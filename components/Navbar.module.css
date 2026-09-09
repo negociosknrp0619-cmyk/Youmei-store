@@ -573,21 +573,19 @@
 }
 
 @media (max-width: 950px) {
-  
   .searchBarContainer {
     display: none;
   }
-  
   .mobileSearchBtn {
     display: flex !important;
   }
-
   .navLinks {
     display: none;
   }
   .navbar {
     grid-template-columns: auto auto;
     justify-content: space-between;
+    gap: 0.5rem;
   }
   .socialIcons {
     display: none;
@@ -596,5 +594,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 0;
+  }
+  .rightIcons {
+    gap: 0.2rem;
+  }
+  .logoText {
+    font-size: 1.1rem;
+  }
+  .logoContainer {
+    gap: 8px;
   }
 }
