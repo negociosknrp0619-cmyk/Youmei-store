@@ -316,11 +316,6 @@ export default function ProductPage() {
               <span className={styles.waIcon}>💬</span> Comprar por WhatsApp
             </button>
 
-            <div className={styles.powerPayBanner}>
-              <p>Desde <strong>S/ 146.45 al mes</strong> o en 3 cuotas sin intereses.</p>
-              <p className={styles.powerPayLink}>Con todas las tarjetas de crédito Más información</p>
-              <span className={styles.powerPayLogo}>PowerPay</span>
-            </div>
           </div>
         </div>
       </div>

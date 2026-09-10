@@ -297,8 +297,8 @@
 
 /* RIGHT COLUMN: BUY BOX */
 .buyBox {
-  background: #1a1a1a;
-  border: 1px solid #333;
+  background: var(--light-gray);
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 1.5rem;
 }
@@ -321,7 +321,8 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #ccc;
+  color: var(--foreground);
+  opacity: 0.8;
   font-size: 0.95rem;
 }
 
@@ -351,7 +352,7 @@
 }
 
 .quantitySection label {
-  color: #fff;
+  color: var(--foreground);
   font-weight: 500;
 }
 
@@ -364,7 +365,8 @@
 .quantitySelector {
   display: flex;
   align-items: center;
-  background-color: #222;
+  background-color: var(--background);
+  border: 1px solid var(--border-color);
   border-radius: 6px;
   overflow: hidden;
 }
@@ -372,18 +374,18 @@
 .qtyBtn {
   background: none;
   border: none;
-  color: #fff;
+  color: var(--foreground);
   font-size: 1.2rem;
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 .qtyBtn:hover {
-  background-color: #333;
+  background-color: var(--light-gray);
 }
 
 .qtyValue {
-  color: #fff;
+  color: var(--foreground);
   font-weight: 600;
   padding: 0 1rem;
   min-width: 20px;
@@ -414,13 +416,13 @@
 }
 
 .addToCartBtn {
-  background: #222;
-  color: #fff;
-  border: 1px solid #444;
+  background: var(--foreground);
+  color: var(--background);
+  border: 1px solid var(--border-color);
 }
 
 .addToCartBtn:hover {
-  background: #333;
+  opacity: 0.9;
 }
 
 .whatsappBtn {
