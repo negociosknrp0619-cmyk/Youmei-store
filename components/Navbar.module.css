@@ -60,11 +60,20 @@
   height: 36px;
   border: 1px solid #333;
   margin-right: 0.5rem;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.3s ease;
   position: relative;
 }
 
+.scrolled .searchBarContainer {
+  background-color: #f5f5f5;
+  border-color: #eaeaea;
+}
+
 .searchBarContainer:focus-within {
+  border-color: #f36c21;
+}
+
+.scrolled .searchBarContainer:focus-within {
   border-color: #f36c21;
 }
 
@@ -77,8 +86,16 @@
   font-size: 0.85rem;
 }
 
+.scrolled .searchInput {
+  color: #333;
+}
+
 .searchInput::placeholder {
   color: #888;
+}
+
+.scrolled .searchInput::placeholder {
+  color: #aaa;
 }
 
 .searchBtn {
