@@ -81,11 +81,14 @@ export default function Navbar() {
                 PRODUCTOS <span className={styles.dropdownIcon}>▼</span>
               </Link>
               <div className={styles.dropdownMenu}>
-                {categories.map(cat => (
-                  <Link key={cat.id} href={`/productos?brand=${cat.id}`} className={styles.dropdownItem}>
-                    {cat.name}
-                  </Link>
-                ))}
+                {categories.map(cat => {
+                  const isCategory = cat.id === 'accesorios';
+                  return (
+                    <Link key={cat.id} href={`/productos?${isCategory ? 'category' : 'brand'}=${cat.id}`} className={styles.dropdownItem}>
+                      {cat.name}
+                    </Link>
+                  );
+                })}
               </div>
             </div>
 

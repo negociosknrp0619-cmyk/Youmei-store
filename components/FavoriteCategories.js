@@ -3,8 +3,8 @@ import Link from 'next/link';
 import styles from './FavoriteCategories.module.css';
 
 const categoryData = [
-  { id: 'camaras', name: 'Cámaras', image: '/images/Secciones/camarass.png', link: '/productos?category=cámaras' },
-  { id: 'audio', name: 'Audio', image: '/images/Secciones/Audio.png', link: '/productos?category=micrófonos' },
+  { id: 'camaras', name: 'Cámaras', image: '/images/Secciones/camarass.png', link: '/productos?category=video' },
+  { id: 'audio', name: 'Audio', image: '/images/Secciones/Audio.png', link: '/productos?category=microfonos' },
   { id: 'estabilizadores', name: 'Estabilizadores', image: '/images/Secciones/estabilizadores.png', link: '/productos?category=estabilizadores' },
   { id: 'iluminacion', name: 'Iluminación', image: '/images/Secciones/iluminacion.png', link: '/productos?category=luces' },
   { id: 'soporte', name: 'Soporte', image: '/images/Secciones/soporte.png', link: '/productos?category=soporte' },
