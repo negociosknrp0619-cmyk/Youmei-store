@@ -212,7 +212,7 @@
 }
 
 .ratingScore {
-  color: #fff;
+  color: var(--foreground);
   font-weight: 600;
 }
 
@@ -229,7 +229,7 @@
 
 .priceSection {
   margin-bottom: 2rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 2rem;
 }
 
@@ -250,7 +250,7 @@
 .currentPrice {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--foreground);
   white-space: nowrap;
 }
 
@@ -279,13 +279,14 @@
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-bottom: 1rem;
-  color: #ccc;
+  color: var(--foreground);
+  opacity: 0.8;
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
 .aboutSection strong {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .seeAllLink {
@@ -447,11 +448,12 @@
 .powerPayBanner p {
   margin: 0 0 0.5rem 0;
   font-size: 0.9rem;
-  color: #ccc;
+  color: var(--foreground);
+  opacity: 0.8;
 }
 
 .powerPayBanner strong {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .powerPayLink {
@@ -473,13 +475,13 @@
 .bottomSection {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--border-color);
 }
 
 .tabsContainer {
   display: flex;
   gap: 2rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 3rem;
   justify-content: center;
 }
@@ -500,7 +502,7 @@
 }
 
 .activeTab {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .activeTab::after {
@@ -514,7 +516,8 @@
 }
 
 .tabContent {
-  color: #ccc;
+  color: var(--foreground);
+  opacity: 0.8;
   line-height: 1.6;
 }
 
@@ -525,7 +528,7 @@
 }
 
 .detailsMainHeading {
-  color: #e5e5e5;
+  color: var(--foreground);
   font-size: 1.6rem;
   margin-bottom: 2rem;
   line-height: 1.4;
@@ -544,7 +547,8 @@
 }
 
 .detailsParagraph {
-  color: #aaa;
+  color: var(--foreground);
+  opacity: 0.7;
   font-size: 1.05rem;
   line-height: 1.7;
 }
@@ -555,7 +559,7 @@
   left: 0;
   width: 100%;
   height: 60px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.9) 80%, rgba(0,0,0,1));
+  background: linear-gradient(to bottom, transparent, var(--background));
   pointer-events: none;
 }
 
@@ -566,9 +570,9 @@
 }
 
 .verMasBtn {
-  background: #fff;
-  color: #000;
-  border: 1px solid #ccc;
+  background: var(--foreground);
+  color: var(--background);
+  border: 1px solid var(--border-color);
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   font-weight: 600;
@@ -577,11 +581,11 @@
 }
 
 .verMasBtn:hover {
-  background: #f0f0f0;
+  opacity: 0.9;
 }
 
 .sectionSubtitle {
-  color: #fff;
+  color: var(--foreground);
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-size: 1.2rem;
@@ -598,7 +602,7 @@
 }
 
 .featureItem h4 {
-  color: #fff;
+  color: var(--foreground);
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
@@ -615,12 +619,12 @@
 
 .specsTable th, .specsTable td {
   padding: 1rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border-color);
   text-align: left;
 }
 
 .specsTable th {
-  color: #fff;
+  color: var(--foreground);
   width: 30%;
   font-weight: 500;
 }
@@ -632,30 +636,31 @@
 
 .faqItem {
   margin-bottom: 2rem;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 1.5rem;
 }
 
 .faqItem h4 {
-  color: #fff;
+  color: var(--foreground);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
 .faqItem p {
-  color: #aaa;
+  color: var(--foreground);
+  opacity: 0.7;
 }
 
 /* SIMILAR PRODUCTS SECTION */
 .similarProductsSection {
   margin-top: 4rem;
   padding-top: 3rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--border-color);
 }
 
 .similarProductsTitle {
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--foreground);
   margin-bottom: 2rem;
 }
 
