@@ -112,6 +112,16 @@
 
 @media (max-width: 480px) {
   .categoriesGrid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .categoryItem {
+    height: 160px; /* Reduce height a bit so they look proportional as squares/rectangles */
+  }
+  .categoryName {
+    font-size: 0.95rem; /* Slightly smaller text for 2 columns on very small screens */
+  }
+  .content {
+    padding: 0.75rem; /* Less padding so text fits */
   }
 }
