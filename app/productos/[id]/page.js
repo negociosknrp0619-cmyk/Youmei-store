@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter, useParams } from 'next/navigation';
@@ -15,11 +15,21 @@ export default function ProductPage() {
   const id = params?.id;
   const router = useRouter();
   const { addToCart } = useCart();
-  // Use dummy-1 if not found, just for mockup purposes
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [relatedProducts, setRelatedProducts] = useState([]);
+  const [isAdding, setIsAdding] = useState(false);
+  const [isAddingSticky, setIsAddingSticky] = useState(false);
+  const [zoomStyle, setZoomStyle] = useState({ transformOrigin: 'center center', transform: 'scale(1)' });
+  const [activeTab, setActiveTab] = useState('detalles');
+  const [detailsExpanded, setDetailsExpanded] = useState(false);
+  const [faqsExpanded, setFaqsExpanded] = useState(false);
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [thumbnailStartIndex, setThumbnailStartIndex] = useState(0);
+  const [quantity, setQuantity] = useState(1);
+  const [showMaxWarning, setShowMaxWarning] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const fetchProduct = async () => {
       if (!id) return;
       try {
@@ -27,8 +37,6 @@ export default function ProductPage() {
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setProduct({ id: docSnap.id, ...docSnap.data() });
-        } else {
-          // fallback or handle not found
         }
       } catch (err) {
         console.error(err);
@@ -38,14 +46,23 @@ export default function ProductPage() {
     };
     fetchProduct();
   }, [id]);
-  const [isAdding, setIsAdding] = useState(false);
 
-  if (loading) return <div style={{padding: '5rem', textAlign: 'center'}}>Cargando producto...</div>;
-  if (!product) return <div style={{padding: '5rem', textAlign: 'center'}}>Producto no encontrado</div>;
+  useEffect(() => {
+    const fetchRelated = async () => {
+      try {
+        const snap = await getDocs(collection(db, 'products'));
+        const all = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+        setRelatedProducts(all.filter(p => p.id !== id).slice(0, 5));
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    fetchRelated();
+  }, [id]);
 
-  const [isAddingSticky, setIsAddingSticky] = useState(false);
-
-  const [zoomStyle, setZoomStyle] = useState({ transformOrigin: 'center center', transform: 'scale(1)' });
+  const images = product?.images || (product?.image ? [product.image] : []);
+  const currentImage = images[activeImageIndex] || '';
+  const visibleThumbnailsCount = 3;
 
   const handleMouseMove = (e) => {
     const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
@@ -53,7 +70,7 @@ export default function ProductPage() {
     const y = ((e.clientY - top) / height) * 100;
     setZoomStyle({
       transformOrigin: `${x}% ${y}%`,
-      transform: 'scale(2.5)' // Nivel de zoom de 2.5x
+      transform: 'scale(2.5)'
     });
   };
 
@@ -63,19 +80,6 @@ export default function ProductPage() {
       transform: 'scale(1)'
     });
   };
-
-  const [activeTab, setActiveTab] = useState('detalles');
-  const [detailsExpanded, setDetailsExpanded] = useState(false);
-  const [faqsExpanded, setFaqsExpanded] = useState(false);
-  
-  const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const images = product.images || [product.image];
-  const currentImage = images[activeImageIndex];
-  
-  const [thumbnailStartIndex, setThumbnailStartIndex] = useState(0);
-  const visibleThumbnailsCount = 3; // Number of thumbnails to show at once
-  const [quantity, setQuantity] = useState(1);
-  const [showMaxWarning, setShowMaxWarning] = useState(false);
 
   const handleIncreaseQty = () => {
     if (quantity < 3) {
@@ -99,6 +103,9 @@ export default function ProductPage() {
     }
   };
 
+  if (loading) return <div style={{padding: '5rem', textAlign: 'center'}}>Cargando producto...</div>;
+  if (!product) return <div style={{padding: '5rem', textAlign: 'center'}}>Producto no encontrado</div>;
+
   const hasMoreAbove = thumbnailStartIndex > 0;
   const hasMoreBelow = thumbnailStartIndex + visibleThumbnailsCount < images.length;
   
@@ -110,7 +117,7 @@ export default function ProductPage() {
   return (
     <div className={styles.container}>
       <div className={styles.breadcrumb}>
-        <Link href="/">Inicio</Link> / <Link href="/productos">Productos</Link> / <Link href="/productos">Estabilizadores</Link> / <span className={styles.activeBreadcrumb}>{product.title}</span>
+        <Link href="/">Inicio</Link> / <Link href="/productos">Productos</Link> / <span className={styles.activeBreadcrumb}>{product.title}</span>
       </div>
 
       <div className={styles.productLayout}>
@@ -414,10 +421,7 @@ export default function ProductPage() {
       <div className={styles.similarProductsSection}>
         <h2 className={styles.similarProductsTitle}>También te puede interesar</h2>
         <div className={styles.similarProductsGrid}>
-          {dummyProducts
-            .filter(p => p.id !== product.id)
-            .slice(0, 5)
-            .map(similarProduct => (
+          {relatedProducts.map(similarProduct => (
               <ProductCard key={similarProduct.id} product={similarProduct} />
             ))}
         </div>
