@@ -257,7 +257,6 @@ function ProductosContent() {
               className={styles.sortDropdown} 
               value={sortOption} 
               onChange={(e) => setSortOption(e.target.value)}
-              style={{backgroundColor: '#1a1a1a', color: '#fff', outline: 'none'}}
             >
               <option value="relevancia">Ordenar por Relevancia</option>
               <option value="precio_asc">Menor precio</option>
@@ -266,12 +265,23 @@ function ProductosContent() {
           </div>
 
           <div className={styles.grid}>
-            {filteredProducts.map(product => (
-              <ProductCard key={product.id} product={product} />
-            ))}
+            {loading ? (
+              Array.from({ length: 8 }).map((_, i) => (
+                <div key={`skel-${i}`} style={{ 
+                  height: '380px', 
+                  backgroundColor: 'var(--border-color)', 
+                  borderRadius: '8px', 
+                  animation: 'pulse 1.5s infinite ease-in-out' 
+                }}></div>
+              ))
+            ) : (
+              filteredProducts.map(product => (
+                <ProductCard key={product.id} product={product} />
+              ))
+            )}
           </div>
           
-          {filteredProducts.length === 0 && (
+          {!loading && filteredProducts.length === 0 && (
             <div style={{padding: '3rem', textAlign: 'center', color: '#888'}}>
               No se encontraron productos con estos filtros.
             </div>
