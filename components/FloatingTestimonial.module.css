@@ -42,11 +42,9 @@
   margin: 0;
 }
 
-/* En dispositivos muy pequeños, ajustar tamaño o posición si es necesario */
-@media (max-width: 480px) {
+/* En dispositivos móviles, ocultamos las reseñas flotantes para que no tapen contenido */
+@media (max-width: 768px) {
   .popup {
-    width: calc(100% - 40px);
-    bottom: 20px;
-    left: 20px;
+    display: none !important;
   }
 }
