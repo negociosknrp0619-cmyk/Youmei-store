@@ -279,8 +279,9 @@ export default function ProductPage() {
                     className={styles.qtyBtn}
                   >+</button>
                 </div>
-                {showMaxWarning && <span className={styles.maxWarningText}>Máx. 3 por cliente</span>}
+                {showMaxWarning && <span className={styles.maxWarningText}>Límite alcanzado</span>}
               </div>
+              <p className={styles.wholesaleNotice}>Máx. 3 por producto. Para compras por mayor, contáctanos por WhatsApp.</p>
             </div>
 
             <button 
