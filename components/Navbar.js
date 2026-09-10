@@ -4,12 +4,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useCart } from './CartProvider';
+import { useAuth } from './AuthProvider';
 import { categories } from '@/data/products';
 import { dummyProducts } from '@/data/dummyProducts';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const { cart } = useCart();
+  const { user } = useAuth();
   const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0);
   
   const [scrolled, setScrolled] = useState(false);
@@ -182,8 +184,14 @@ export default function Navbar() {
               </a>
             </div>
 
-            <Link href="/login" className={`${styles.iconBtn} ${styles.profileBtn}`} aria-label="Perfil">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <Link href={user ? "/perfil" : "/login"} className={`${styles.iconBtn} ${styles.profileBtn}`} aria-label="Perfil">
+              {user && user.photoURL ? (
+                <img src={user.photoURL} alt="Profile" style={{ width: '24px', height: '24px', borderRadius: '50%', objectFit: 'cover' }} />
+              ) : (
+                <svg viewBox="0 0 24 24" fill={user ? "#ff6b00" : "none"} stroke="currentColor" strokeWidth="1.5">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                </svg>
+              )}
             </Link>
 
             {/* Hamburger Button (Mobile only) */}
