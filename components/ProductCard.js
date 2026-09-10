@@ -5,6 +5,12 @@ import Link from 'next/link';
 import { useCart } from './CartProvider';
 import styles from './ProductCard.module.css';
 
+function safeEncodeURI(url) {
+  if (!url) return '';
+  if (/%[0-9A-Fa-f]{2}/.test(url)) return url;
+  return encodeURI(url);
+}
+
 export default function ProductCard({ product }) {
   const { addToCart } = useCart();
   const [isAdding, setIsAdding] = useState(false);
@@ -13,7 +19,7 @@ export default function ProductCard({ product }) {
       <Link href={`/productos/${product.id}`} className={styles.imageLink}>
         <div className={styles.imageWrapper}>
           <Image
-            src={encodeURI(product.image)}
+            src={safeEncodeURI(product.image)}
             alt={product.title}
             fill
             style={{ objectFit: 'contain', padding: '1rem' }}

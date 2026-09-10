@@ -10,6 +10,14 @@ import { useCart } from '../../../components/CartProvider';
 import { WHATSAPP_NUMBER } from '../../../data/products';
 import styles from './page.module.css';
 
+// Avoid double-encoding: if the URL already has %XX sequences, don't re-encode
+function safeEncodeURI(url) {
+  if (!url) return '';
+  // If already encoded (contains %20, %2F, etc.), return as-is
+  if (/%[0-9A-Fa-f]{2}/.test(url)) return url;
+  return encodeURI(url);
+}
+
 export default function ProductPage() {
   const params = useParams();
   const id = params?.id;
@@ -142,7 +150,7 @@ export default function ProductPage() {
                       className={`${styles.thumbnail} ${activeImageIndex === idx ? styles.activeThumbnail : ''}`}
                       onClick={() => setActiveImageIndex(idx)}
                     >
-                      <Image src={encodeURI(img)} alt={`thumb-${idx}`} fill style={{ objectFit: 'contain', padding: '4px' }} unoptimized />
+                      <Image src={safeEncodeURI(img)} alt={`thumb-${idx}`} fill style={{ objectFit: 'contain', padding: '4px' }} unoptimized />
                     </div>
                   );
                 })}
@@ -176,7 +184,7 @@ export default function ProductPage() {
               &lt;
             </div>
             <div className={styles.imageZoomContainer} style={zoomStyle}>
-              <Image src={encodeURI(currentImage)} alt={product.title} fill style={{ objectFit: 'contain', padding: '2rem' }} unoptimized />
+              <Image src={safeEncodeURI(currentImage)} alt={product.title} fill style={{ objectFit: 'contain', padding: '2rem' }} unoptimized />
             </div>
             <div 
               className={styles.navArrowRight} 
