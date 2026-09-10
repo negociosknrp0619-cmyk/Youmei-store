@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams } from 'next/navigation';
 import { db } from '../../../lib/firebase';
 import { doc, getDoc, collection, getDocs } from 'firebase/firestore';
 import ProductCard from '../../../components/ProductCard';
@@ -10,8 +10,9 @@ import { useCart } from '../../../components/CartProvider';
 import { WHATSAPP_NUMBER } from '../../../data/products';
 import styles from './page.module.css';
 
-export default function ProductPage({ params }) {
-  const unwrappedParams = React.use(params);
+export default function ProductPage() {
+  const params = useParams();
+  const id = params?.id;
   const router = useRouter();
   const { addToCart } = useCart();
   // Use dummy-1 if not found, just for mockup purposes
@@ -20,8 +21,9 @@ export default function ProductPage({ params }) {
 
   React.useEffect(() => {
     const fetchProduct = async () => {
+      if (!id) return;
       try {
-        const docRef = doc(db, 'products', unwrappedParams.id);
+        const docRef = doc(db, 'products', id);
         const docSnap = await getDoc(docRef);
         if (docSnap.exists()) {
           setProduct({ id: docSnap.id, ...docSnap.data() });
@@ -35,7 +37,7 @@ export default function ProductPage({ params }) {
       }
     };
     fetchProduct();
-  }, [unwrappedParams.id]);
+  }, [id]);
   const [isAdding, setIsAdding] = useState(false);
 
   if (loading) return <div style={{padding: '5rem', textAlign: 'center'}}>Cargando producto...</div>;

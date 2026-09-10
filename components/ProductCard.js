@@ -13,7 +13,7 @@ export default function ProductCard({ product }) {
       <Link href={`/productos/${product.id}`} className={styles.imageLink}>
         <div className={styles.imageWrapper}>
           <Image
-            src={product.image}
+            src={encodeURI(product.image)}
             alt={product.title}
             fill
             style={{ objectFit: 'contain', padding: '1rem' }}
