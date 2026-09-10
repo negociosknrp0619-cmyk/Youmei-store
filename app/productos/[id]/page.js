@@ -4,9 +4,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter, useParams } from 'next/navigation';
 import { db } from '../../../lib/firebase';
-import { doc, getDoc, collection, getDocs } from 'firebase/firestore';
+import { doc, getDoc, collection, query, where, getDocs, updateDoc } from 'firebase/firestore';
 import ProductCard from '../../../components/ProductCard';
+import { useAuth } from '../../../components/AuthProvider';
 import { useCart } from '../../../components/CartProvider';
+import { useFavorites } from '../../../components/FavoritesProvider';
 import { WHATSAPP_NUMBER } from '../../../data/products';
 import styles from './page.module.css';
 
@@ -23,6 +25,7 @@ export default function ProductPage() {
   const id = params?.id;
   const router = useRouter();
   const { addToCart } = useCart();
+  const { toggleFavorite, isFavorite } = useFavorites();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [relatedProducts, setRelatedProducts] = useState([]);
@@ -172,8 +175,11 @@ export default function ProductPage() {
               className={styles.heartIcon}
               onMouseEnter={handleMouseLeave}
               onMouseMove={(e) => e.stopPropagation()}
+              onClick={(e) => { e.stopPropagation(); toggleFavorite(product); }}
+              style={{ color: isFavorite(product.id) ? '#e91e63' : 'currentColor', cursor: 'pointer' }}
+              title={isFavorite(product.id) ? "Quitar de favoritos" : "Añadir a favoritos"}
             >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              <svg viewBox="0 0 24 24" fill={isFavorite(product.id) ? '#e91e63' : 'none'} stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
             </div>
             <div 
               className={styles.navArrowLeft} 

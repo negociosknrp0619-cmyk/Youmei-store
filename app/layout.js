@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { CartProvider } from '@/components/CartProvider';
 import { AuthProvider } from '@/components/AuthProvider';
+import { FavoritesProvider } from '@/components/FavoritesProvider';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AnnouncementBar from '@/components/AnnouncementBar';
@@ -26,15 +27,17 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <AuthProvider>
-          <CartProvider>
-            <Navbar />
-            <main style={{ minHeight: 'calc(100vh - 160px)' }}>
-              {children}
-            </main>
-            <Footer />
-            <WhatsAppButton />
-            <FloatingTestimonial />
-          </CartProvider>
+          <FavoritesProvider>
+            <CartProvider>
+              <Navbar />
+              <main style={{ minHeight: 'calc(100vh - 160px)' }}>
+                {children}
+              </main>
+              <Footer />
+              <WhatsAppButton />
+              <FloatingTestimonial />
+            </CartProvider>
+          </FavoritesProvider>
         </AuthProvider>
       </body>
     </html>
