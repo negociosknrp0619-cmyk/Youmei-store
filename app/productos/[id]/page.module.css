@@ -60,7 +60,7 @@
 }
 
 .thumbNavBtn:hover {
-  color: #fff;
+  color: var(--foreground);
 }
 
 .thumbnails {
