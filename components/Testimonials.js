@@ -86,28 +86,33 @@ const testimonialsData = [
 
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerPage = 3;
+  const [isMobile, setIsMobile] = useState(false);
+
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const itemsPerPage = isMobile ? 1 : 3;
   
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? Math.max(0, testimonialsData.length - 3) : prevIndex - 1
+      prevIndex === 0 ? Math.max(0, testimonialsData.length - itemsPerPage) : prevIndex - itemsPerPage
     );
   };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex >= testimonialsData.length - 3 ? 0 : prevIndex + 1
+      prevIndex >= testimonialsData.length - itemsPerPage ? 0 : prevIndex + itemsPerPage
     );
   };
 
-  // We show 3 items at a time
-  const visibleTestimonials = testimonialsData.slice(currentIndex, currentIndex + 3);
-  // If we reach the end and don't have 3 items left, we wrap around or just show the last 3.
-  // A simpler way for a demo is to just show 3 items based on index.
-  const displayItems = testimonialsData.length >= 3 
-    ? testimonialsData.slice(currentIndex, currentIndex + 3).length < 3 
-      ? [...testimonialsData.slice(currentIndex), ...testimonialsData.slice(0, 3 - testimonialsData.slice(currentIndex).length)]
-      : testimonialsData.slice(currentIndex, currentIndex + 3)
+  const displayItems = testimonialsData.length >= itemsPerPage 
+    ? testimonialsData.slice(currentIndex, currentIndex + itemsPerPage).length < itemsPerPage 
+      ? [...testimonialsData.slice(currentIndex), ...testimonialsData.slice(0, itemsPerPage - testimonialsData.slice(currentIndex).length)]
+      : testimonialsData.slice(currentIndex, currentIndex + itemsPerPage)
     : testimonialsData;
 
   return (

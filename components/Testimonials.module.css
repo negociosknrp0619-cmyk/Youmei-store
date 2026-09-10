@@ -169,19 +169,30 @@
 
 @media (max-width: 768px) {
   .carouselWrapper {
-    flex-direction: column;
+    width: 100%;
+    padding: 0 10px; /* Leave space for buttons */
   }
   
   .testimonialsGrid {
-    flex-direction: column;
     width: 100%;
   }
 
   .navButton {
-    display: none; /* Hide buttons on mobile, or could implement swipe */
+    /* Keep buttons visible, but adjust positioning */
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  
+  .navButton.prev {
+    left: -10px;
+  }
+  
+  .navButton.next {
+    right: -10px;
   }
 
   .testimonialCard {
-    margin-bottom: 30px;
+    margin: 0;
   }
 }
