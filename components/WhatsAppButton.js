@@ -4,10 +4,7 @@ import styles from './WhatsAppButton.module.css';
 export default function WhatsAppButton() {
   return (
     <div className={styles.whatsappContainer}>
-      <div className={styles.tooltip}>
-        <span>¿Necesitas ayuda?</span>
-        <span>Comunícate con nosotros</span>
-      </div>
+
       <a
         href="https://wa.me/51983725740?text=Hola%20Youmei%20Store%2C%20necesito%20ayuda"
         target="_blank"
