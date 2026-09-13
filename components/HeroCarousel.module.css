@@ -84,6 +84,8 @@
   padding-left: 15px;
   border-left: 2px solid transparent;
   transition: all 0.3s ease;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
 .sidebarItem:hover {
@@ -92,8 +94,9 @@
 
 .activeSidebarItem {
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
   border-left: 2px solid #fff;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.8);
 }
 
 /* Animations */
