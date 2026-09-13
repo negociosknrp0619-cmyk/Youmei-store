@@ -36,6 +36,17 @@ const slides = [
     title: 'DJI RS 5 Mini',
     primaryButton: 'Aprender más >',
     secondaryButton: 'Comprar ya 🛒'
+  },
+  {
+    id: 4,
+    image: '/images/banners/Dji_osmo_pocket_4_upscaled.webp',
+    objectPosition: 'center center',
+    link: '/productos',
+    title: 'DJI Osmo Pocket 4',
+    tagline: 'Captura el mundo en tu bolsillo.',
+    description: 'Estabilización mecánica y calidad excepcional donde sea que vayas.',
+    primaryButton: 'Aprender más >',
+    secondaryButton: 'Comprar ya 🛒'
   }
 ];
 
