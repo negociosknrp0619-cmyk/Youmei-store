@@ -50,7 +50,7 @@ const slides = [
   },
   {
     id: 5,
-    image: '/images/banners/Osmo action 6.png',
+    image: '/images/banners/Osmo_action_6_upscaled.webp',
     objectPosition: 'center center',
     link: '/productos',
     title: 'DJI Osmo Action 6',
