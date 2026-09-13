@@ -47,6 +47,17 @@ const slides = [
     description: 'Estabilización mecánica y calidad excepcional donde sea que vayas.',
     primaryButton: 'Aprender más >',
     secondaryButton: 'Comprar ya 🛒'
+  },
+  {
+    id: 5,
+    image: '/images/banners/Osmo action 6.png',
+    objectPosition: 'center center',
+    link: '/productos',
+    title: 'DJI Osmo Action 6',
+    tagline: 'Lleva la aventura al límite.',
+    description: 'Calidad 4K increíble, resistente al agua y a todo tipo de acción extrema.',
+    primaryButton: 'Aprender más >',
+    secondaryButton: 'Comprar ya 🛒'
   }
 ];
 
