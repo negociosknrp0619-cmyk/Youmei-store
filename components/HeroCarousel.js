@@ -127,7 +127,7 @@ export default function HeroCarousel() {
                     <Link href={slide.link} className={styles.primaryBtn}>
                       {slide.primaryButton}
                     </Link>
-                    <Link href={slide.link} className={styles.secondaryBtn}>
+                    <Link href={`${slide.link}?buy=true`} className={styles.secondaryBtn}>
                       {slide.secondaryButton}
                     </Link>
                   </div>

@@ -59,6 +59,22 @@ export default function ProductPage() {
   }, [id]);
 
   useEffect(() => {
+    if (product && !loading && typeof window !== 'undefined') {
+      const searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.get('buy') === 'true') {
+        const price = product.currentPrice || product.price || product.originalPrice || 0;
+        addToCart({
+          id: product.id,
+          name: product.title,
+          price: price,
+          image: product.image
+        }, 1);
+        router.push('/checkout');
+      }
+    }
+  }, [product, loading, addToCart, router]);
+
+  useEffect(() => {
     const fetchRelated = async () => {
       try {
         const snap = await getDocs(collection(db, 'products'));
